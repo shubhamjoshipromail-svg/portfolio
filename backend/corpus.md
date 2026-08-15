@@ -1,7 +1,7 @@
 # Shubham Joshi — Portfolio Corpus
 
 ## Identity
-Shubham Joshi is an MS Business Analytics and AI candidate at Johns Hopkins University. Based in Washington, DC. STEM OPT eligible. Email: shubhamjoshipro.mail@gmail.com. LinkedIn: linkedin.com/in/shubham-joshi1. GitHub: github.com/shubhamjoshipromail-svg.
+Shubham Joshi completed an MS in Business Analytics and AI at Johns Hopkins University in 2026. Email: shubhamjoshipro.mail@gmail.com. LinkedIn: linkedin.com/in/shubham-joshi1. GitHub: github.com/shubhamjoshipromail-svg.
 
 ## Background
 Global BBA background spanning Japan, Australia, and the United States. Four working languages: English, Japanese, Nepali, Hindi. Dean's Scholarship recipient at Johns Hopkins. Top 7 placement in a Kaggle ML hackathon. Azure AI-900 certified.
@@ -39,12 +39,12 @@ Machine Learning: LightGBM, XGBoost, CatBoost, H2O AutoML, logistic regression, 
 
 Responsible AI: SHAP, LIME, counterfactual reasoning, fairness auditing, Population Stability Index, Platt scaling, model review for safer deployment.
 
-AI Product Engineering: FastAPI, SQLAlchemy, asyncio, multi-provider LLM orchestration, RAG patterns, prompt engineering, SSE streaming, Railway deployment.
+AI Product Engineering: FastAPI, SQLAlchemy, asyncio, multi-provider model orchestration, structured model I/O, evaluation-driven development, SSE streaming, and Railway deployment.
 
 Data Science and Consulting: SQL, Python, Tableau, experimentation design, k-means with multi-criterion validation (elbow, silhouette, Davies-Bouldin), cohort analysis, KPI framing, executive storytelling, cross-cultural client communication.
 
 ## Availability
-Currently looking for business analytics, AI, product analytics, and strategy-facing internships or full-time roles. STEM OPT eligible. Based in Washington, DC. Open to relocation.
+Currently looking for high-ownership applied AI, forward-deployed engineering, founding engineering, and data science roles.
 
 ## Taught and Workshop Work
 Has taught 8+ production-style classifier types through peer ML workshops at the Business Analytics and AI Think Tank. Workshops emphasize interpretable modeling — turning classifier theory into demos with SHAP and LIME explanations.

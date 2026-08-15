@@ -13,5 +13,7 @@ Shubham_Joshi_Master_CV.docx
 node_modules
 dist
 build
+output
+tmp
 __pycache__/
 *.pyc

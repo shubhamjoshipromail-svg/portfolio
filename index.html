@@ -1,1135 +1,361 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="theme-color" content="#f4efe7" />
-    <title>Shubham Joshi | Business Analytics &amp; AI Portfolio</title>
-    <meta
-      name="description"
-      content="Portfolio of Shubham Joshi, a Johns Hopkins Business Analytics &amp; AI graduate student building explainable ML systems, agentic AI products, and analytics work with business impact."
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&amp;family=Manrope:wght@400;500;600;700;800&amp;display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="./styles.css" />
-  </head>
-  <body>
-    <div class="scroll-progress" aria-hidden="true">
-      <span class="scroll-progress-bar"></span>
-    </div>
-
-    <div class="site-shell">
-      <header class="topbar">
-        <a class="brand" href="#home" aria-label="Shubham Joshi home">SJ</a>
-        <nav class="nav">
-          <a href="#work">Work</a>
-          <a href="#about">About</a>
-          <a href="#skills">Skills</a>
-          <a href="#contact">Contact</a>
-        </nav>
-        <button
-          class="theme-toggle"
-          type="button"
-          aria-label="Toggle color theme"
-          aria-pressed="false"
-        >
-          <span class="theme-toggle-track">
-            <span class="theme-toggle-thumb"></span>
-          </span>
-          <span class="theme-toggle-label">Warm Mode</span>
-        </button>
-      </header>
-
-      <main>
-        <section class="hero section reveal" id="home">
-          <div class="hero-copy">
-            <p class="eyebrow">
-              MS Business Analytics &amp; AI Candidate • Johns Hopkins University
-            </p>
-            <h1>Generalist by instinct, technical by training.</h1>
-            <p class="hero-text">
-              Recently: a live healthcare consulting engagement whose findings
-              reach Medicare Advantage policy advocacy, a pharmacist-facing
-              clinical decision support prototype, a deployed consumer AI
-              product, and a credit risk model with a full responsible-AI
-              review. Before that: freelance work, side projects, and
-              whatever I talked myself into across three countries and four
-              languages. The pattern is less "specialist" and more "person who
-              keeps finding problems nobody else wants to figure out."
-            </p>
-
-            <div class="hero-actions">
-              <a class="button button-primary" href="#work">View Case Studies</a>
-              <a
-                class="button button-secondary"
-                href="./assets/Shubham_Joshi_Resume.pdf"
-                target="_blank"
-                rel="noreferrer"
-                download="Shubham_Joshi_Resume.pdf"
-                >Resume</a
-              >
-              <a
-                class="button button-secondary"
-                href="mailto:shubhamjoshipro.mail@gmail.com"
-                >Email</a
-              >
-            </div>
-
-            <ul class="hero-highlights">
-              <li>Dean's Scholarship recipient at Johns Hopkins</li>
-              <li>Top 7 in Kaggle ML hackathon</li>
-              <li>Azure AI-900 certified</li>
-              <li>Global BBA · Japan / Australia / US</li>
-              <li>English, Japanese, Nepali, Hindi</li>
-            </ul>
-          </div>
-
-          <aside class="hero-panel">
-            <article class="profile-card reveal-lines">
-              <p class="card-kicker">Profile • Shubham Joshi</p>
-              <div class="portrait-placeholder">
-                <img
-                  class="portrait-image"
-                  src="./assets/headshot-portrait.jpeg"
-                  alt="Portrait of Shubham Joshi"
-                  decoding="async"
-                />
-              </div>
-              <div class="profile-summary">
-                <p class="profile-summary-title">I think sideways.</p>
-                <p>
-                  Most of the work I'm proud of came from asking a slightly
-                  different question than the one on the page.
-                </p>
-              </div>
-            </article>
-          </aside>
-        </section>
-
-        <section class="section metrics-section reveal" aria-label="Selected metrics">
-          <div class="proof-strip">
-            <article class="proof-card">
-              <span data-countup="695" data-countup-suffix="M">695M</span>
-              <p class="metric-label">Policy-Scale Healthcare Data</p>
-              <p class="metric-note">Turned raw CMS enrollment files into evidence for Medicare Advantage strategy.</p>
-            </article>
-            <article class="proof-card">
-              <span data-countup="138" data-countup-suffix="K+">138K+</span>
-              <p class="metric-label">Plan Records Engineered</p>
-              <p class="metric-note">Built dual-year 2025/2026 master files across 208 columns for benefit analysis.</p>
-            </article>
-            <article class="proof-card">
-              <span data-countup="0.6857" data-countup-decimals="4">0.6857</span>
-              <p class="metric-label">Audited Credit Model</p>
-              <p class="metric-note">LightGBM risk workflow with explainability, calibration, drift, and fairness checks.</p>
-            </article>
-            <article class="proof-card">
-              <span data-countup="2">2</span>
-              <p class="metric-label">Deployed AI Products</p>
-              <p class="metric-note">FridgeChef and RxCheck show product judgment, backend architecture, and disciplined AI boundaries.</p>
-            </article>
-          </div>
-        </section>
-
-        <section class="section positioning-section reveal" aria-label="Positioning">
-          <article class="status-card">
-            <div class="positioning-copy">
-              <p class="card-kicker">Positioning</p>
-              <h2>Explainable ML, agentic AI, and analytics with a cross-cultural edge.</h2>
-              <p>
-                Washington, DC based. Interested in machine learning, data
-                science, analytics, AI product, and strategy-facing roles where
-                technical depth, responsible deployment, and business
-                communication all matter. Equally comfortable inside a Jupyter
-                notebook, a FastAPI codebase, and a client meeting.
-              </p>
-            </div>
-
-            <div class="positioning-proof" aria-label="How Shubham works">
-              <article>
-                <span>Build</span>
-                <p>Turns ambiguous ideas into shipped FastAPI products, demos, and deployable workflows.</p>
-              </article>
-              <article>
-                <span>Validate</span>
-                <p>Uses model comparison, calibration, fairness checks, and cluster validation to avoid hand-wavy analysis.</p>
-              </article>
-              <article>
-                <span>Translate</span>
-                <p>Connects technical output to the decision a stakeholder, client, or product user actually needs to make.</p>
-              </article>
-            </div>
-          </article>
-        </section>
-
-        <section id="work" class="section reveal">
-          <div class="section-heading">
-            <p class="eyebrow">Selected Case Studies</p>
-            <h2>Projects presented with evidence, system design, and business context.</h2>
-          </div>
-
-          <div class="case-study-stack">
-            <article class="case-study supporting-case-study" id="home-credit-case-study">
-              <div class="case-study-copy">
-                <div class="case-meta">
-                  <span>Responsible AI</span>
-                  <span>Johns Hopkins • 2026</span>
-                </div>
-                <h3>Home Credit default risk modeling with explainability, fairness, and calibration</h3>
-                <p>
-                  Supporting ML work: a production-minded credit-risk workflow
-                  that reached 0.6857 OOF ROC-AUC and added explainability,
-                  fairness auditing, calibration, drift checks, and threshold
-                  tuning.
-                </p>
-              </div>
-              <div class="case-visual reveal-lines" hidden>
-                <div class="visual-stack home-credit-visuals">
-                  <div class="visual-grid visual-grid-split">
-                    <article class="visual-panel">
-                      <div class="visual-panel-header">
-                        <p class="visual-kicker">Model comparison</p>
-                        <span>OOF ROC-AUC</span>
-                      </div>
-                      <!-- TODO: Replace placeholder Logistic Regression and Random Forest values with measured OOF ROC-AUC values. -->
-                      <svg
-                        class="visual-svg"
-                        viewBox="0 0 520 280"
-                        role="img"
-                        aria-label="Model comparison chart showing LightGBM outperforming baseline models"
-                      >
-                        <text class="svg-label" x="18" y="52">Dummy Baseline</text>
-                        <rect class="svg-bar svg-bar-muted" x="168" y="34" width="240" height="22" rx="11"></rect>
-                        <text class="svg-value" x="422" y="51">0.5041</text>
-
-                        <text class="svg-label" x="18" y="102">Logistic Regression</text>
-                        <rect class="svg-bar svg-bar-muted" x="168" y="84" width="296" height="22" rx="11"></rect>
-                        <text class="svg-value" x="478" y="101">0.62</text>
-
-                        <text class="svg-label" x="18" y="152">Random Forest</text>
-                        <rect class="svg-bar svg-bar-muted" x="168" y="134" width="310" height="22" rx="11"></rect>
-                        <text class="svg-value" x="492" y="151">0.65</text>
-
-                        <text class="svg-label" x="18" y="202">LightGBM</text>
-                        <rect class="svg-bar svg-bar-accent" x="168" y="184" width="332" height="22" rx="11"></rect>
-                        <text class="svg-value" x="456" y="201">0.6857</text>
-
-                        <text class="svg-axis-caption" x="168" y="244">Lower</text>
-                        <text class="svg-axis-caption" x="460" y="244">Higher ROC-AUC</text>
-                      </svg>
-                    </article>
-
-                    <article class="visual-panel">
-                      <div class="visual-panel-header">
-                        <p class="visual-kicker">Interpretability preview</p>
-                        <span>SHAP</span>
-                      </div>
-                      <!-- TODO: Replace placeholder feature order and names with actual SHAP mean absolute value outputs. -->
-                      <svg
-                        class="visual-svg"
-                        viewBox="0 0 520 280"
-                        role="img"
-                        aria-label="SHAP-style feature importance preview with top features shown as horizontal bars"
-                      >
-                        <text class="svg-label" x="18" y="38">EXT_SOURCE_2</text>
-                        <rect class="svg-bar svg-bar-accent" x="172" y="22" width="276" height="16" rx="8"></rect>
-
-                        <text class="svg-label" x="18" y="68">EXT_SOURCE_3</text>
-                        <rect class="svg-bar svg-bar-accent" x="172" y="52" width="254" height="16" rx="8"></rect>
-
-                        <text class="svg-label" x="18" y="98">DAYS_BIRTH</text>
-                        <rect class="svg-bar svg-bar-accent" x="172" y="82" width="224" height="16" rx="8"></rect>
-
-                        <text class="svg-label" x="18" y="128">AMT_CREDIT</text>
-                        <rect class="svg-bar svg-bar-accent" x="172" y="112" width="198" height="16" rx="8"></rect>
-
-                        <text class="svg-label" x="18" y="158">AMT_ANNUITY</text>
-                        <rect class="svg-bar svg-bar-accent" x="172" y="142" width="180" height="16" rx="8"></rect>
-
-                        <text class="svg-label" x="18" y="188">DAYS_EMPLOYED</text>
-                        <rect class="svg-bar svg-bar-accent" x="172" y="172" width="158" height="16" rx="8"></rect>
-
-                        <text class="svg-label" x="18" y="218">EXT_SOURCE_1</text>
-                        <rect class="svg-bar svg-bar-accent" x="172" y="202" width="142" height="16" rx="8"></rect>
-
-                        <text class="svg-label" x="18" y="248">CODE_GENDER</text>
-                        <rect class="svg-bar svg-bar-accent" x="172" y="232" width="118" height="16" rx="8"></rect>
-                      </svg>
-                      <p class="visual-caption">Top features by SHAP mean absolute value</p>
-                    </article>
-                  </div>
-
-                  <div class="visual-pill-strip">
-                    <span>Calibration (Platt scaling)</span>
-                    <span>Fairness audit</span>
-                    <span>PSI drift check</span>
-                    <span>Threshold tuning</span>
-                  </div>
-                </div>
-              </div>
-            </article>
-
-            <article class="case-study case-study-flagship" id="cms-case-study">
-              <div class="case-study-copy">
-                <div class="case-meta">
-                  <span>Flagship Case Study · Live Consulting</span>
-                  <span>Client: ACHP (Alliance of Community Health Plans) • 2025 - Ongoing</span>
-                </div>
-                <h3>Revealing how Medicare Advantage carriers shifted costs after the 2026 CMS reimbursement cut</h3>
-                <p>
-                  The Alliance of Community Health Plans represents nonprofit
-                  and community-based health plans in national healthcare policy
-                  discussions. Its analysis can inform Congressional staff
-                  working on Medicare Advantage legislation, making accuracy and
-                  defensible interpretation essential.
-                </p>
-                <p class="case-question">
-                  <strong>The problem:</strong> When CMS reduced Medicare
-                  Advantage reimbursement for 2026, how did ACHP members and
-                  national carriers differ in the way they shifted and presented
-                  costs to beneficiaries?
-                </p>
-                <ul class="case-points">
-                  <li>Built a four-step ingestion pipeline across CMS Landscape, ACHP Crosswalk, monthly CPSC enrollment, and plan benefit (PBP) data, producing dual-year 2025 and 2026 master files of 138K+ plans across 208 columns.</li>
-                  <li>Corrected a 12x enrollment overcount, reconciled schema drift, and matched 109,015 plan-county rows for year-over-year analysis; Special Needs Plans were excluded from the primary cost comparison.</li>
-                  <li>Compared premiums, maximum out-of-pocket costs, Part D deductibles, and drug-benefit erosion, isolating Kaiser because fewer than 6% of ACHP plan-county rows represented roughly half of ACHP enrollment.</li>
-                  <li>Tested pricing differences with OLS models controlling for enrollment and Star Rating, disclosing low R-squared values as a limitation.</li>
-                  <li>Validated k-means through elbow, silhouette, and Davies-Bouldin criteria; added regional and plan-type segmentation, a final HMO model with a 0.322 silhouette score, and a five-fold stratified plan-exit model with 0.642 cross-validated AUC.</li>
-                </ul>
-                <div class="case-chips">
-                  <span>695M Enrollee-Months</span>
-                  <span>138K+ Plans · 208 cols</span>
-                  <span>109,015 Matched Rows</span>
-                  <span>Dual-Year 2025/2026</span>
-                  <span>Policy Recommendation</span>
-                </div>
-              </div>
-              <div class="case-visual reveal-lines">
-                <div class="visual-stack achp-evidence-visual">
-                  <p class="visual-caption">From CMS filings to policy position - how government data becomes evidence a Congressional staffer can cite.</p>
-
-                  <article class="visual-panel achp-evidence-chain" aria-label="ACHP evidence chain from raw signal to policy decision">
-                    <div class="achp-chain-header">
-                      <p class="visual-kicker">Evidence chain</p>
-                      <span>Raw signal -&gt; Analysis -&gt; Decision</span>
-                    </div>
-
-                    <div class="achp-chain-body">
-                      <section class="achp-stage achp-stage-raw" aria-label="Raw signal">
-                        <p class="achp-stage-label">Raw signal</p>
-                        <p class="achp-stage-caption">Government and member filings</p>
-                        <ul class="achp-raw-list">
-                          <li>CMS Landscape files</li>
-                          <li>CPSC monthly enrollment</li>
-                          <li>Plan Benefit Package data</li>
-                          <li>ACHP member crosswalk</li>
-                        </ul>
-                      </section>
-
-                      <div class="achp-connector" aria-hidden="true">
-                        <span>Reconcile · Validate</span>
-                        <svg viewBox="0 0 150 24" role="presentation" focusable="false">
-                          <path d="M2 12H140"></path>
-                          <path d="M132 5L140 12L132 19"></path>
-                        </svg>
-                      </div>
-
-                      <section class="achp-stage achp-stage-analysis" aria-label="Analysis">
-                        <p class="achp-stage-label">Analysis</p>
-                        <p class="achp-stage-caption">What the data was actually asked</p>
-                        <div class="achp-analysis-list">
-                          <div class="achp-analysis-pill">
-                            <span>Dual-year</span>
-                            <p>2025 and 2026 master files reconciled across schema drift</p>
-                          </div>
-                          <div class="achp-analysis-pill">
-                            <span>Costs</span>
-                            <p>Premium, MOOP, Part D deductible, and drug-benefit erosion compared</p>
-                          </div>
-                          <div class="achp-analysis-pill">
-                            <span>Models</span>
-                            <p>OLS controls, validated k-means, and plan-exit logistic regression</p>
-                          </div>
-                          <div class="achp-analysis-pill">
-                            <span>Stratified</span>
-                            <p>Kaiser, plan type, and county-level positioning analyzed separately</p>
-                          </div>
-                        </div>
-                      </section>
-
-                      <div class="achp-connector" aria-hidden="true">
-                        <span>Interpret · Position</span>
-                        <svg viewBox="0 0 150 24" role="presentation" focusable="false">
-                          <path d="M2 12H140"></path>
-                          <path d="M132 5L140 12L132 19"></path>
-                        </svg>
-                      </div>
-
-                      <section class="achp-stage achp-stage-decision" aria-label="Decision">
-                        <p class="achp-stage-label">Decision</p>
-                        <p class="achp-stage-caption">What the analysis produced</p>
-                        <ol class="achp-decision-list">
-                          <li>
-                            <span>1</span>
-                            <p>67.5% of national plans eroded drug benefits versus 41.3% of ACHP plans; weighted deductible increases were $114 versus $26.</p>
-                          </li>
-                          <li>
-                            <span>2</span>
-                            <p>ACHP plans generally made more cost increases visible through premiums while protecting drug access more strongly.</p>
-                          </li>
-                          <li class="achp-decision-emphasis">
-                            <span>3</span>
-                            <p>ACHP held a cost advantage in 493 of 875 scored counties; national HMO-POS competitors raised combined member costs $199 more.</p>
-                          </li>
-                        </ol>
-                      </section>
-                    </div>
-                  </article>
-
-                  <div class="validation-block">
-                    <p class="visual-kicker">Cluster validation</p>
-                    <div class="metrics-band metrics-band-three">
-                      <article class="metrics-band-cell">
-                        <p class="metric-band-label">Elbow</p>
-                        <p class="metric-band-body">Inflection identified and cross-checked before committing to k.</p>
-                      </article>
-                      <article class="metrics-band-cell">
-                        <p class="metric-band-label">Silhouette</p>
-                        <p class="metric-band-body">Cohesion and separation scored across candidate k values.</p>
-                      </article>
-                      <article class="metrics-band-cell">
-                        <p class="metric-band-label">Davies-Bouldin</p>
-                        <p class="metric-band-body">Third independent criterion confirms the chosen segmentation.</p>
-                      </article>
-                    </div>
-                  </div>
-
-                  <div class="editorial-callout">
-                    <span class="editorial-callout-label">Why this matters</span>
-                    <p>
-                      The analysis supported a clear recommendation: require CMS
-                      to show year-over-year changes in deductibles and
-                      out-of-pocket exposure alongside premiums.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </article>
-
-            <article class="case-study" id="fridgechef-case-study">
-              <div class="case-study-copy">
-                <div class="case-meta">
-                  <span>Agentic AI Product</span>
-                  <span>Live Build • 2026</span>
-                </div>
-                <h3>FridgeChef, a production-minded consumer AI system with multi-provider orchestration</h3>
-                <p>
-                  Built and deployed an AI consumer product that turns fridge
-                  photos, receipts, and saved inventory into personalized recipe
-                  workflows through a stateless architecture, streaming UX, and
-                  multi-provider model routing.
-                </p>
-                <ul class="case-points">
-                  <li>Orchestrated Claude Vision and GPT-4o-mini to balance output quality, cost, and multimodal input handling.</li>
-                  <li>Implemented fuzzy deduplication, SSE streaming, and privacy-conscious stateless personalization.</li>
-                  <li>Deployed the product live with Railway and a codebase that now spans roughly 5,500 lines.</li>
-                </ul>
-                <div class="case-chips">
-                  <span>Live Product</span>
-                  <span>Multi-Provider LLMs</span>
-                  <span>SSE Streaming</span>
-                </div>
-              </div>
-              <div class="case-visual reveal-lines">
-                <div class="visual-stack fridgechef-architecture">
-                  <article class="visual-panel">
-                    <div class="visual-panel-header">
-                      <p class="visual-kicker">Architecture flow</p>
-                      <span>Model routing by input type + cost</span>
-                    </div>
-                    <svg
-                      class="visual-svg visual-svg-desktop"
-                      viewBox="0 0 900 280"
-                      role="img"
-                      aria-label="FridgeChef architecture diagram showing router branching to Claude Vision and GPT-4o-mini before streaming responses to the frontend"
-                    >
-                      <rect class="svg-node" x="18" y="100" width="150" height="60" rx="18"></rect>
-                      <text class="svg-node-title" x="93" y="124" text-anchor="middle">User input</text>
-                      <text class="svg-node-subtitle" x="93" y="144" text-anchor="middle">Photo / receipt / inventory</text>
-
-                      <rect class="svg-node" x="202" y="100" width="144" height="60" rx="18"></rect>
-                      <text class="svg-node-title" x="274" y="124" text-anchor="middle">FastAPI backend</text>
-                      <text class="svg-node-subtitle" x="274" y="144" text-anchor="middle">Parsing + orchestration</text>
-
-                      <rect class="svg-node" x="380" y="100" width="112" height="60" rx="18"></rect>
-                      <text class="svg-node-title" x="436" y="124" text-anchor="middle">Router</text>
-                      <text class="svg-node-subtitle" x="436" y="144" text-anchor="middle">Decision layer</text>
-
-                      <rect class="svg-node" x="540" y="38" width="144" height="60" rx="18"></rect>
-                      <text class="svg-node-title" x="612" y="62" text-anchor="middle">Claude Vision</text>
-                      <text class="svg-node-subtitle" x="612" y="82" text-anchor="middle">Multimodal input</text>
-
-                      <rect class="svg-node" x="540" y="162" width="144" height="60" rx="18"></rect>
-                      <text class="svg-node-title" x="612" y="186" text-anchor="middle">GPT-4o-mini</text>
-                      <text class="svg-node-subtitle" x="612" y="206" text-anchor="middle">Low-cost text path</text>
-
-                      <rect class="svg-node" x="724" y="100" width="152" height="60" rx="18"></rect>
-                      <text class="svg-node-title" x="800" y="124" text-anchor="middle">Streaming response</text>
-                      <text class="svg-node-subtitle" x="800" y="144" text-anchor="middle">SSE -&gt; Frontend</text>
-
-                      <path class="svg-flow-line" d="M168 130 L202 130"></path>
-                      <path class="svg-flow-line" d="M346 130 L380 130"></path>
-                      <path class="svg-flow-line" d="M492 130 C520 130 510 68 540 68"></path>
-                      <path class="svg-flow-line" d="M492 130 C520 130 510 192 540 192"></path>
-                      <path class="svg-flow-line" d="M684 68 C714 68 696 130 724 130"></path>
-                      <path class="svg-flow-line" d="M684 192 C714 192 696 130 724 130"></path>
-                      <text class="svg-axis-caption" x="520" y="18">Model routing by input type + cost</text>
-                    </svg>
-                    <svg
-                      class="visual-svg visual-svg-mobile"
-                      viewBox="0 0 360 680"
-                      role="img"
-                      aria-label="Vertical FridgeChef architecture diagram for mobile screens"
-                    >
-                      <rect class="svg-node" x="48" y="22" width="264" height="60" rx="18"></rect>
-                      <text class="svg-node-title" x="180" y="46" text-anchor="middle">User input</text>
-                      <text class="svg-node-subtitle" x="180" y="66" text-anchor="middle">Photo / receipt / inventory</text>
-
-                      <rect class="svg-node" x="48" y="122" width="264" height="60" rx="18"></rect>
-                      <text class="svg-node-title" x="180" y="146" text-anchor="middle">FastAPI backend</text>
-                      <text class="svg-node-subtitle" x="180" y="166" text-anchor="middle">Parsing + orchestration</text>
-
-                      <rect class="svg-node" x="96" y="222" width="168" height="60" rx="18"></rect>
-                      <text class="svg-node-title" x="180" y="246" text-anchor="middle">Router</text>
-                      <text class="svg-node-subtitle" x="180" y="266" text-anchor="middle">Decision layer</text>
-
-                      <text class="svg-axis-caption" x="180" y="318" text-anchor="middle">Model routing by input type + cost</text>
-
-                      <rect class="svg-node" x="48" y="338" width="264" height="60" rx="18"></rect>
-                      <text class="svg-node-title" x="180" y="362" text-anchor="middle">Claude Vision</text>
-                      <text class="svg-node-subtitle" x="180" y="382" text-anchor="middle">Multimodal input</text>
-
-                      <rect class="svg-node" x="48" y="438" width="264" height="60" rx="18"></rect>
-                      <text class="svg-node-title" x="180" y="462" text-anchor="middle">GPT-4o-mini</text>
-                      <text class="svg-node-subtitle" x="180" y="482" text-anchor="middle">Low-cost text path</text>
-
-                      <rect class="svg-node" x="48" y="570" width="264" height="60" rx="18"></rect>
-                      <text class="svg-node-title" x="180" y="594" text-anchor="middle">Streaming response</text>
-                      <text class="svg-node-subtitle" x="180" y="614" text-anchor="middle">SSE -&gt; Frontend</text>
-
-                      <path class="svg-flow-line" d="M180 82 L180 122"></path>
-                      <path class="svg-flow-line" d="M180 182 L180 222"></path>
-                      <path class="svg-flow-line" d="M180 282 L180 302"></path>
-                      <path class="svg-flow-line" d="M180 326 L180 338"></path>
-                      <path class="svg-flow-line" d="M180 398 L180 438"></path>
-                      <path class="svg-flow-line" d="M180 498 L180 570"></path>
-                    </svg>
-                  </article>
-
-                  <div class="thumb-strip">
-                    <figure class="thumb-card">
-                      <div class="thumb-media">
-                        <img
-                          class="thumb-image"
-                          src="./Images/Screenshot 2026-04-24 at 13.17.02.png"
-                          alt="FridgeChef fridge scan interface with uploaded fridge photo"
-                          loading="lazy"
-                          decoding="async"
-                        />
-                      </div>
-                      <figcaption>Fridge scan</figcaption>
-                    </figure>
-                    <figure class="thumb-card">
-                      <div class="thumb-media">
-                        <img
-                          class="thumb-image"
-                          src="./Images/Screenshot 2026-04-24 at 13.18.08.png"
-                          alt="FridgeChef recipe output page with generated frittata recipe"
-                          loading="lazy"
-                          decoding="async"
-                        />
-                      </div>
-                      <figcaption>Recipe output</figcaption>
-                    </figure>
-                    <figure class="thumb-card">
-                      <div class="thumb-media">
-                        <img
-                          class="thumb-image"
-                          src="./Images/Screenshot 2026-04-24 at 13.18.30.png"
-                          alt="FridgeChef kitchen inventory grid with saved ingredients"
-                          loading="lazy"
-                          decoding="async"
-                        />
-                      </div>
-                      <figcaption>Kitchen inventory</figcaption>
-                    </figure>
-                  </div>
-                </div>
-              </div>
-            </article>
-
-            <article class="case-study case-study-reverse" id="rxcheck-case-study">
-              <div class="case-study-copy">
-                <div class="case-meta">
-                  <span>Healthcare AI</span>
-                  <span>Live Build • 2026</span>
-                </div>
-                <h3>RxCheck, a pharmacist-facing interaction tracker with a disciplined LLM boundary</h3>
-                <p>
-                  A clinical decision support prototype where the interesting
-                  engineering is not the AI, it is the data model and the
-                  boundary drawn around what the AI is allowed to do.
-                  Deterministic interaction checks run against a locally-imported
-                  clinical database; an LLM layer produces plain-English
-                  explanations under strict RAG with schema-validated output.
-                  Designed with FDA Non-Device CDS criteria in mind so a
-                  pharmacist can always see the basis of every alert.
-                </p>
-                <ul class="case-points">
-                  <li>Two-table interaction model with a canonical pair row and per-source assertions, lexicographic DDI ordering enforced by CHECK constraint to prevent (A,B)/(B,A) duplicates at the database level.</li>
-                  <li>RxNorm normalization pipeline with exact match -&gt; brand lookup -&gt; trigram fuzzy match -&gt; NDC fallback, with confirmed fuzzy matches written back as aliases so repeat typos resolve instantly.</li>
-                  <li>RAG-only LLM layer: structured interaction rows injected as context, schema validation on every response, cross-check that the model only references drugs present in the source data. Failed validations are logged, never shown.</li>
-                  <li>Hub drug scoring surfaces which single medication change would reduce interaction burden most for polypharmacy patients - a question pure severity ranking cannot answer.</li>
-                  <li>HIPAA-ready schema shape with patient identifiers in a 1:1 child table so column-level encryption or physical separation can be added without touching any other table.</li>
-                  <li>Frozen run snapshots mean the audit trail reflects what the pharmacist actually saw, not what the data says now.</li>
-                </ul>
-                <div class="case-chips">
-                  <span>RAG + Schema Validation</span>
-                  <span>SQLite -&gt; Postgres Ready</span>
-                  <span>RxNorm</span>
-                  <span>FDA Non-Device CDS Oriented</span>
-                  <span>Audit Trail</span>
-                </div>
-              </div>
-              <div class="case-visual reveal-lines">
-                <div class="visual-stack rxcheck-data-model">
-                  <article class="visual-panel">
-                    <div class="visual-panel-header">
-                      <p class="visual-kicker">Data model boundary</p>
-                      <span>RxCheckDataModel</span>
-                    </div>
-                    <svg
-                      class="visual-svg"
-                      viewBox="0 0 560 420"
-                      role="img"
-                      aria-label="RxCheck data model diagram showing normalization, deterministic local data, and bounded LLM explanation layers"
-                    >
-                      <rect class="svg-layer-box" x="52" y="24" width="456" height="92" rx="22"></rect>
-                      <text class="svg-layer-title" x="280" y="58" text-anchor="middle">NORMALIZATION LAYER</text>
-                      <text class="svg-layer-body" x="280" y="82" text-anchor="middle">RxNorm REST · exact -&gt; brand -&gt; fuzzy -&gt; NDC -&gt; unresolved queue</text>
-
-                      <path class="svg-flow-line" d="M280 116 L280 152"></path>
-
-                      <rect class="svg-layer-box svg-layer-box-accent" x="34" y="152" width="492" height="104" rx="24"></rect>
-                      <text class="svg-layer-title svg-node-title-inverse" x="280" y="188" text-anchor="middle">LOCAL DATA LAYER (offline, deterministic)</text>
-                      <text class="svg-layer-body svg-node-title-inverse" x="280" y="214" text-anchor="middle">SQLite · interactions + interaction_source_assertions · per-source severity preserved</text>
-
-                      <path class="svg-flow-line" d="M280 256 L280 294"></path>
-
-                      <rect class="svg-layer-box svg-layer-box-light" x="52" y="294" width="456" height="92" rx="22"></rect>
-                      <text class="svg-layer-title" x="280" y="328" text-anchor="middle">LLM EXPLANATION LAYER (bounded)</text>
-                      <text class="svg-layer-body" x="280" y="352" text-anchor="middle">RAG context · schema validation · drug cross-check · never the source of truth</text>
-                    </svg>
-                  </article>
-
-                  <div class="metrics-band metrics-band-two">
-                    <article class="metrics-band-cell">
-                      <p class="metric-band-label">Schema validation</p>
-                      <p class="metric-band-body">Every LLM response validated before display. Failed responses logged, never surfaced.</p>
-                    </article>
-                    <article class="metrics-band-cell">
-                      <p class="metric-band-label">Audit trail</p>
-                      <p class="metric-band-body">Frozen run snapshot per check. Append-only override log. Prompt versioning for reproducibility.</p>
-                    </article>
-                  </div>
-
-                  <div class="editorial-callout">
-                    <span class="editorial-callout-label">Why this matters</span>
-                    <p>
-                      A warning system that cries wolf is worse than one that is
-                      silent. The design discipline here - tiered severity,
-                      per-patient acknowledgments, severity-escalation detection,
-                      gated DDSI on recorded conditions - exists because alert
-                      fatigue is the failure mode that actually matters in a
-                      pharmacy workflow.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </article>
-          </div>
-        </section>
-
-        <section class="section reveal">
-          <div class="section-heading">
-            <p class="eyebrow">Project Index</p>
-            <h2>Case studies first, live products when you want to try them.</h2>
-          </div>
-
-          <div class="work-showcase">
-            <article class="featured-product">
-              <div class="featured-product-media">
-                <div class="featured-product-screen">
-                  <img
-                    class="featured-product-image"
-                    src="./Images/Screenshot 2026-04-24 at 13.17.02.png"
-                    alt="FridgeChef product interface showing the fridge scan flow with the full UI visible"
-                    loading="lazy"
-                    decoding="async"
-                  />
-                </div>
-              </div>
-
-              <div class="featured-product-copy">
-                <div class="featured-product-main">
-                  <div class="work-meta">
-                    <span>Product Index</span>
-                    <span>FastAPI + Multi-Provider LLMs</span>
-                  </div>
-                  <h3>FridgeChef</h3>
-                  <p class="featured-product-lead">
-                    Read the full architecture case study or launch the deployed
-                    product. The screenshot remains available here if the
-                    Railway service is waking up.
-                  </p>
-                  <div class="featured-product-actions">
-                    <a class="button button-primary" href="#fridgechef-case-study">Read case study -&gt;</a>
-                    <a
-                      class="button button-secondary"
-                      href="https://fride-project-production.up.railway.app"
-                      target="_blank"
-                      rel="noreferrer"
-                      >Launch live demo -&gt;</a
-                    >
-                  </div>
-                </div>
-              </div>
-            </article>
-
-            <div class="secondary-products">
-              <div class="secondary-product-stack">
-                <article class="work-card secondary-work-card">
-                  <div class="work-placeholder">
-                    <img
-                      class="work-image"
-                      src="./assets/rxcheck-ui.png"
-                      alt="RxCheck interface showing clinical interaction findings"
-                      loading="lazy"
-                      decoding="async"
-                    />
-                  </div>
-                  <div class="work-meta">
-                    <span>Product Index</span>
-                    <span>FastAPI + React</span>
-                  </div>
-                  <h3>RxCheck</h3>
-                  <p>
-                    Read the full data-model case study or launch the deployed
-                    prototype. The representative interface remains visible if
-                    the Railway service is waking up.
-                  </p>
-                  <div class="secondary-actions">
-                    <a class="button button-primary" href="#rxcheck-case-study">Read case study -&gt;</a>
-                    <a
-                      class="button button-secondary"
-                      href="https://pharmacy-production-f226.up.railway.app/"
-                      target="_blank"
-                      rel="noreferrer"
-                      >Launch live demo -&gt;</a
-                    >
-                  </div>
-                </article>
-
-                <article class="work-card supporting-work-card">
-                  <div class="work-meta">
-                    <span>Supporting Work</span>
-                    <span>Dashboards + Simulation + Data Design</span>
-                  </div>
-                  <h3>Additional applied analytics work</h3>
-                  <p>
-                    Supporting work also spans Tableau dashboards, Monte Carlo
-                    simulation, and healthcare database design.
-                  </p>
-                  <div class="supporting-work-links">
-                    <a
-                      class="supporting-work-link"
-                      href="https://public.tableau.com/views/SalesPerformanceAnalyticsDashboard/Story1"
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      <span>Tableau dashboards -&gt;</span>
-                      <small>Sales performance story built for quick business readout.</small>
-                    </a>
-                    <a class="supporting-work-link" href="#skills">
-                      <span>Monte Carlo simulation -&gt;</span>
-                      <small>Simulation and uncertainty work folded into the broader analytics toolkit.</small>
-                    </a>
-                    <a class="supporting-work-link" href="#skills">
-                      <span>Healthcare database design -&gt;</span>
-                      <small>Structured healthcare data modeling alongside the RxCheck and CMS work.</small>
-                    </a>
-                    <a class="supporting-work-link" href="#home-credit-case-study">
-                      <span>Responsible credit-risk modeling -&gt;</span>
-                      <small>0.6857 OOF ROC-AUC with explainability, fairness, calibration, and drift checks.</small>
-                    </a>
-                    <div class="supporting-work-link supporting-work-note">
-                      <span>Nimbus prototype</span>
-                      <small>Early hackathon scaffold for a student-facing AI companion focused on burnout.</small>
-                    </div>
-                  </div>
-                </article>
-              </div>
-            </div>
-
-          </div>
-        </section>
-
-        <section id="about" class="section reveal">
-          <div class="section-heading">
-            <p class="eyebrow">About</p>
-            <h2>Experience</h2>
-          </div>
-
-          <div class="about-layout">
-            <aside class="about-aside">
-              <p class="aside-label">Perspective</p>
-              <p class="aside-quote">
-                Technical enough to build the model. Clear enough to present the
-                decision.
-              </p>
-            </aside>
-
-            <div class="about-copy">
-              <div class="about-intro">
-                <p>
-                  I am an MS Business Analytics and AI candidate at Johns
-                  Hopkins University, built on a global BBA background across
-                  Japan, Australia, and the United States. That path built
-                  business intuition across four languages and three working
-                  cultures, and a habit of translating between what a model
-                  says and what a stakeholder actually needs to decide.
-                </p>
-                <div class="metrics-band metrics-band-three about-stats">
-                  <article class="metrics-band-cell">
-                    <span data-countup="3">3</span>
-                    <p class="metric-band-label">Countries</p>
-                    <p class="metric-band-body">Studied and worked across Japan, Australia, and the United States.</p>
-                  </article>
-                  <article class="metrics-band-cell">
-                    <span data-countup="4">4</span>
-                    <p class="metric-band-label">Languages</p>
-                    <p class="metric-band-body">Used in academic, professional, and client-facing settings.</p>
-                  </article>
-                  <article class="metrics-band-cell">
-                    <span data-countup="8" data-countup-suffix="+">8+</span>
-                    <p class="metric-band-label">ML Models Taught</p>
-                    <p class="metric-band-body">Peer workshops turning classifier theory into working demos with SHAP and LIME walkthroughs.</p>
-                  </article>
-                </div>
-              </div>
-              <p>
-                Recently the work has gone deeper: explainable ML with SHAP,
-                LIME, calibration, and fairness auditing; live healthcare
-                consulting with pipeline design and validated segmentation;
-                agentic AI systems with multi-provider orchestration; and a
-                clinical decision support prototype with a disciplined LLM
-                boundary. Alongside all of it, client-facing work for a
-                national nonprofit whose findings reach Congressional staff -
-                and a continued habit of being the person who can both build
-                the system and explain the decision.
-              </p>
-              <div class="experience-list">
-                <article>
-                  <span>2025 — Present</span>
-                  <div class="experience-body">
-                    <h3>VP &amp; Co-Founder, Business Analytics &amp; AI Think Tank</h3>
-                    <p>
-                      Co-founded a Johns Hopkins analytics and AI organization,
-                      publish applied AI analysis, and lead Python and ML
-                      workshops focused on interpretable modeling.
-                    </p>
-                    <div class="experience-tags">
-                      <span>Org builder</span>
-                      <span>Applied AI writing</span>
-                      <span>Peer ML workshops</span>
-                    </div>
-                  </div>
-                </article>
-                <article>
-                  <span>2021 — 2024</span>
-                  <div class="experience-body">
-                    <h3>Lead Instructor &amp; Communications Facilitator</h3>
-                    <p>
-                      Designed English communication programs for adult business
-                      professionals and maintained 95%+ retention.
-                    </p>
-                    <div class="experience-tags">
-                      <span>95%+ retention</span>
-                      <span>Executive communication</span>
-                      <span>Curriculum design</span>
-                    </div>
-                  </div>
-                </article>
-                <article>
-                  <span>2021 — 2025</span>
-                  <div class="experience-body">
-                    <h3>Independent Data &amp; Analytics Consultant</h3>
-                    <p>
-                      Designed analytics, experimentation, dashboards, and
-                      data-informed strategy across international freelance
-                      engagements in Japan, Australia, and the US.
-                    </p>
-                    <div class="experience-tags">
-                      <span>Dashboards</span>
-                      <span>Experimentation</span>
-                      <span>Japan / Australia / US</span>
-                    </div>
-                  </div>
-                </article>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <section id="skills" class="section reveal">
-          <div class="section-heading">
-            <p class="eyebrow">Core Capabilities</p>
-            <h2>Six areas of depth, one habit of mixing them.</h2>
-          </div>
-
-          <div class="skill-layout">
-            <article class="skill-group">
-              <p class="skill-label">Machine Learning, Statistics &amp; Optimization</p>
-              <h3>Models, simulations, and optimization that hold up to scrutiny.</h3>
-              <p>
-                LightGBM, XGBoost, CatBoost, H2O AutoML, logistic regression,
-                random forest, Optuna, cross-validation, SMOTE, threshold
-                optimization, calibration, MILP formulation, epsilon-constraint
-                multi-objective optimization, Monte Carlo simulation, and
-                production-minded evaluation.
-              </p>
-            </article>
-
-            <article class="skill-group">
-              <p class="skill-label">Responsible AI</p>
-              <h3>Interpretability and auditability built into the workflow.</h3>
-              <p>
-                SHAP, LIME, counterfactual reasoning, fairness auditing,
-                Population Stability Index, Platt scaling, bounded LLM design,
-                RAG with schema validation, and model review practices for
-                safer deployment.
-              </p>
-            </article>
-
-            <article class="skill-group">
-              <p class="skill-label">AI Product Engineering</p>
-              <h3>LLM systems shipped end-to-end, not just demoed.</h3>
-              <p>
-                FastAPI, SQLAlchemy, asyncio, multi-provider LLM orchestration,
-                RAG patterns, prompt engineering, SSE streaming, stateless
-                architecture, full-stack product design, and Railway
-                deployment across live consumer and clinical AI builds.
-              </p>
-            </article>
-
-            <article class="skill-group">
-              <p class="skill-label">Data Engineering &amp; Analytics</p>
-              <h3>Turning messy enterprise data into something a team can actually use.</h3>
-              <p>
-                SQL, Python, Tableau, large-scale ETL pipeline design,
-                dual-year data reconciliation, schema drift handling, k-means
-                with multi-criterion validation (elbow, silhouette,
-                Davies-Bouldin), cohort analysis, stratified segmentation, and
-                dashboards built for non-technical decision-makers.
-              </p>
-            </article>
-
-            <article class="skill-group">
-              <p class="skill-label">Consulting &amp; Client Work</p>
-              <h3>Running an engagement end-to-end, not just the analysis.</h3>
-              <p>
-                Client discovery, scoping, stakeholder alignment, executive
-                storytelling, KPI framing, recommendation writing,
-                cross-cultural facilitation, and translating technical findings
-                into decisions a client can act on. Experience ranges from a
-                national healthcare nonprofit whose findings reach
-                Congressional staff to freelance engagements across Japan,
-                Australia, and the US.
-              </p>
-            </article>
-
-            <article class="skill-group">
-              <p class="skill-label">Communication &amp; Teaching</p>
-              <h3>Making technical work legible to people who don't have the training.</h3>
-              <p>
-                Peer ML workshops covering 8+ classifier types with live SHAP
-                and LIME walkthroughs, applied AI writing and think tank
-                leadership, curriculum design for adult business professionals
-                with 95%+ retention, and client-facing communication across
-                four working languages - English, Japanese, Nepali, Hindi.
-              </p>
-            </article>
-          </div>
-        </section>
-
-        <section id="contact" class="section contact-section reveal">
-          <div class="contact-panel">
-            <div class="contact-copy">
-              <p class="eyebrow">Contact</p>
-              <h2>The work I want lives between building and explaining.</h2>
-              <p>
-                Applied AI, data science, technical PM, AI strategy — different
-                names, same shape. If you need someone who can go deep when the
-                problem needs depth and wide when it needs range, let's talk.
-              </p>
-              <div class="contact-note">
-                <span class="contact-note-label">Currently looking for</span>
-                <p>Full-time roles, August 2026 start. Applied AI, data science, or AI product. US-based, open to relocation.</p>
-              </div>
-            </div>
-
-            <div class="contact-actions-panel">
-              <div class="contact-actions">
-                <a
-                  class="button button-primary"
-                  href="mailto:shubhamjoshipro.mail@gmail.com"
-                  >shubhamjoshipro.mail@gmail.com</a
-                >
-                <button
-                  class="button button-secondary copy-email"
-                  type="button"
-                  data-copy="shubhamjoshipro.mail@gmail.com"
-                >
-                  Copy Email
-                </button>
-                <a
-                  class="button button-secondary"
-                  href="./assets/Shubham_Joshi_Resume.pdf"
-                  target="_blank"
-                  rel="noreferrer"
-                  download="Shubham_Joshi_Resume.pdf"
-                  >Resume</a
-                >
-                <a
-                  class="button button-secondary"
-                  href="https://www.linkedin.com/in/shubham-joshi1"
-                  target="_blank"
-                  rel="noreferrer"
-                  >LinkedIn</a
-                >
-                <a
-                  class="button button-secondary"
-                  href="https://github.com/shubhamjoshipromail-svg"
-                  target="_blank"
-                  rel="noreferrer"
-                  >GitHub</a
-                >
-                <a
-                  class="button button-secondary"
-                  href="https://public.tableau.com/views/SalesPerformanceAnalyticsDashboard/Story1"
-                  target="_blank"
-                  rel="noreferrer"
-                  >Tableau</a
-                >
-              </div>
-
-              <div class="contact-details">
-                <article>
-                  <span class="contact-detail-label">Base</span>
-                  <p>Washington, DC</p>
-                </article>
-                <article>
-                  <span class="contact-detail-label">Program</span>
-                  <p>Johns Hopkins MS in Business Analytics &amp; AI</p>
-                </article>
-                <article>
-                  <span class="contact-detail-label">Strength</span>
-                  <p>Finding the real problem, building something against it, and explaining why it works to anyone in the room.</p>
-                </article>
-              </div>
-            </div>
-          </div>
-        </section>
-      </main>
-
-      <footer class="footer">
-        <p>Built for analytics, AI, and strategy-facing opportunities.</p>
-        <p>Washington, DC • Johns Hopkins University • STEM OPT Eligible</p>
-      </footer>
-    </div>
-
-    <button
-      class="portfolio-chat-toggle"
-      type="button"
-      aria-controls="portfolio-chat-panel"
-      aria-expanded="false"
-      aria-label="Open portfolio assistant"
-    >
-      <span class="portfolio-chat-toggle-dot" aria-hidden="true"></span>
-      <span class="portfolio-chat-toggle-label">Ask</span>
-    </button>
-
-    <section
-      class="portfolio-chat-panel"
-      id="portfolio-chat-panel"
-      aria-labelledby="portfolio-chat-title"
-      hidden
-    >
-      <div class="portfolio-chat-header">
-        <div>
-          <h2 class="portfolio-chat-title" id="portfolio-chat-title">Portfolio assistant</h2>
-          <p class="portfolio-chat-subtitle">
-            Grounded in Shubham's published materials. Cites sources.
-          </p>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f3f0e8">
+  <meta name="description" content="Shubham Joshi is an applied AI engineer building agent systems, trained ML products, data pipelines, and user-facing software.">
+  <meta name="author" content="Shubham Joshi">
+  <meta name="robots" content="index,follow,max-image-preview:large">
+  <meta property="og:title" content="Shubham Joshi — Applied AI Engineer">
+  <meta property="og:description" content="AI systems for problems without clean data, clear requirements, or room for careless answers.">
+  <meta property="og:type" content="profile">
+  <meta property="og:url" content="https://portfolio-production-9040.up.railway.app/">
+  <meta property="og:image" content="https://portfolio-production-9040.up.railway.app/assets/og-portfolio.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Shubham Joshi — Applied AI and forward-deployed engineer">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Shubham Joshi — Applied AI Engineer">
+  <meta name="twitter:description" content="Agents, trained models, data systems, and products built from first question to working system.">
+  <meta name="twitter:image" content="https://portfolio-production-9040.up.railway.app/assets/og-portfolio.png">
+  <title>Shubham Joshi — Applied AI Engineer</title>
+  <link rel="canonical" href="https://portfolio-production-9040.up.railway.app/">
+  <link rel="icon" type="image/png" href="./assets/favicon.png">
+  <link rel="apple-touch-icon" href="./assets/favicon.png">
+  <script>document.documentElement.classList.add("js")</script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ProfilePage",
+    "mainEntity": {
+      "@type": "Person",
+      "name": "Shubham Joshi",
+      "url": "https://portfolio-production-9040.up.railway.app/",
+      "jobTitle": "Applied AI and Forward-Deployed Engineer",
+      "alumniOf": { "@type": "CollegeOrUniversity", "name": "Johns Hopkins University" },
+      "sameAs": [
+        "https://github.com/shubhamjoshipromail-svg",
+        "https://www.linkedin.com/in/shubham-joshi1/",
+        "https://huggingface.co/shubhamjoshipro",
+        "https://www.youtube.com/watch?v=NdwP83VBurU"
+      ],
+      "knowsAbout": ["AI agents", "machine learning", "data engineering", "generative AI", "forward-deployed engineering"]
+    }
+  }
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&amp;family=Instrument+Sans:wdth,wght@75..100,400..700&amp;family=Newsreader:opsz,wght@6..72,500;6..72,600&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to work</a>
+  <div class="progress" aria-hidden="true"><span></span></div>
+
+  <header class="site-header">
+    <a class="wordmark" href="#top" aria-label="Shubham Joshi, home">
+      <span>SJ</span><span>Shubham Joshi</span>
+    </a>
+    <nav aria-label="Main navigation">
+      <a href="#work">Work</a>
+      <a href="#resumes">Resumes</a>
+      <a href="#experience">Experience</a>
+      <a href="#about">About</a>
+      <a href="#network">Network</a>
+    </nav>
+    <a class="header-contact" href="mailto:shubhamjoshipro.mail@gmail.com">Contact <span aria-hidden="true">↗</span></a>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="top">
+      <div class="hero-index mono reveal">Portfolio / 2026</div>
+      <div class="hero-main">
+        <p class="hero-role reveal">Applied AI + forward-deployed engineer</p>
+        <h1 class="reveal">I turn messy problems into working AI.</h1>
+      </div>
+      <div class="hero-bottom reveal">
+        <p class="hero-deck">Agents, trained models, data pipelines, and products—built from first question to deployed system.</p>
+        <div class="hero-actions">
+          <a class="button button-dark" href="#work">View selected work <span>↓</span></a>
+          <a class="button" href="https://www.youtube.com/watch?v=NdwP83VBurU" target="_blank" rel="noreferrer">Watch AgentDock <span>↗</span></a>
         </div>
-        <button
-          class="portfolio-chat-close"
-          type="button"
-          aria-label="Close portfolio assistant"
-        >
-          ×
-        </button>
       </div>
-
-      <div class="portfolio-chat-transcript" aria-live="polite" aria-atomic="false"></div>
-
-      <div class="portfolio-chat-suggestions">
-        <button type="button" class="portfolio-chat-suggestion">
-          What did Shubham build at ACHP?
-        </button>
-        <button type="button" class="portfolio-chat-suggestion">
-          Tell me about RxCheck
-        </button>
-        <button type="button" class="portfolio-chat-suggestion">
-          What is he looking for?
-        </button>
+      <div class="hero-proof" aria-label="Selected evidence">
+        <a class="reveal" href="#agentdock"><span class="proof-number">61</span><span class="proof-label">AgentDock test files across policy and execution</span><span class="proof-jump">01 ↓</span></a>
+        <a class="reveal" href="#opspilot"><span class="proof-number">73.1%</span><span class="proof-label">ModernBERT validation accuracy</span><span class="proof-jump">03 ↓</span></a>
+        <a class="reveal" href="#achp"><span class="proof-number">138,263</span><span class="proof-label">rows in the ACHP master dataset</span><span class="proof-jump">02 ↓</span></a>
+        <a class="reveal" href="#vibe-curator"><span class="proof-number">4</span><span class="proof-label">AI providers in one creative system</span><span class="proof-jump">04 ↓</span></a>
       </div>
-
-      <form class="portfolio-chat-form">
-        <label class="visually-hidden" for="portfolio-chat-input">Your question</label>
-        <input
-          class="portfolio-chat-input"
-          id="portfolio-chat-input"
-          name="question"
-          type="text"
-          autocomplete="off"
-          placeholder="Ask about Shubham's work, projects, or background"
-        />
-        <button class="button button-primary portfolio-chat-submit" type="submit">
-          Ask
-        </button>
-      </form>
-
-      <p class="portfolio-chat-footnote">
-        Answers come from published portfolio materials only. For anything else, email
-        Shubham directly.
-      </p>
     </section>
 
-    <script src="./script.js"></script>
-  </body>
+    <section class="capability-band" aria-label="Capabilities">
+      <p class="mono">01 / Working range</p>
+      <div class="capability-list">
+        <span>Agent systems</span><span>Applied ML</span><span>Data engineering</span><span>Product engineering</span><span>Technical communication</span>
+      </div>
+    </section>
+
+    <section class="role-paths" aria-labelledby="role-paths-title">
+      <div class="role-paths-heading reveal">
+        <p class="mono">Choose the evidence</p>
+        <h2 id="role-paths-title">One builder.<br>Three hiring lenses.</h2>
+      </div>
+      <div class="role-path-grid">
+        <a class="role-path reveal" href="#agentdock"><span class="mono">Applied AI engineering</span><strong>Systems that plan, predict, and create.</strong><p>AgentDock + OpsPilot + Vibe Curator</p><em>Agents, models, products →</em></a>
+        <a class="role-path reveal" href="#achp"><span class="mono">Forward deployed</span><strong>Ambiguity converted into a client decision.</strong><p>ACHP × CMS + AgentDock</p><em>Discovery through delivery →</em></a>
+        <a class="role-path reveal" href="#opspilot"><span class="mono">Data science</span><strong>Better decisions before bigger models.</strong><p>OpsPilot + ACHP × CMS</p><em>Data, statistics, ML →</em></a>
+      </div>
+    </section>
+
+    <section class="resume-section" id="resumes" aria-labelledby="resume-title">
+      <div class="resume-heading reveal">
+        <p class="mono">Resume / Choose a lens</p>
+        <div><h2 id="resume-title">Same builder.<br>Role-specific signal.</h2><p>Every version uses the same facts and evidence. Only the ordering changes so the most relevant work appears first.</p></div>
+      </div>
+      <div class="resume-grid">
+        <a class="resume-card reveal" href="./assets/resumes/Shubham_Joshi_Resume_AppliedAi.pdf" target="_blank">
+          <span class="mono">01 / PDF</span><strong>Applied AI Engineer</strong><p>AgentDock, OpsPilot, and Vibe Curator lead.</p><em>Open resume ↗</em>
+        </a>
+        <a class="resume-card reveal" href="./assets/resumes/Shubham_Joshi_Resume_ForwardDeployed.pdf" target="_blank">
+          <span class="mono">02 / PDF</span><strong>Forward-Deployed AI Engineer</strong><p>Systems engineering, client delivery, and adoption lead.</p><em>Open resume ↗</em>
+        </a>
+        <a class="resume-card reveal" href="./assets/resumes/Shubham_Joshi_Resume_DataScience.pdf" target="_blank">
+          <span class="mono">03 / PDF</span><strong>Data Scientist / Applied ML</strong><p>ACHP, OpsPilot, and rigorous evaluation lead.</p><em>Open resume ↗</em>
+        </a>
+      </div>
+    </section>
+
+    <section class="work-section" id="work">
+      <div class="section-intro reveal">
+        <p class="mono section-number">02 / Selected work</p>
+        <h2>Four kinds of evidence.<br>One operating style.</h2>
+        <p>Build deeply. Validate the part that can fail. Make the result legible to the person who has to use it.</p>
+      </div>
+
+      <div class="project-list">
+        <article class="project project-agentdock reveal" id="agentdock">
+          <div class="project-meta mono"><span>01</span><span>Agent infrastructure</span><span>Active / 2026</span></div>
+          <div class="project-copy">
+            <h3>AgentDock</h3>
+            <p class="project-thesis">A control plane for AI agents that can use real tools—without putting permissions, budgets, and approval rules inside a prompt.</p>
+            <div class="plain-english"><span class="mono">In plain English</span><p>Teams can let an AI draft, search, or act while keeping consequential steps behind enforceable rules and human approval.</p></div>
+            <div class="project-impact">
+              <span>225 commits</span><span>61 test files</span><span>Postgres durable execution</span>
+            </div>
+            <p class="project-detail">Built the full prototype: model-backed flow planning, deny-by-default policy resolution, governed MCP execution, approval workflows, encrypted credentials, durable jobs, crash recovery, idempotent external actions, and live run events.</p>
+            <div class="project-links">
+              <a href="https://github.com/shubhamjoshipromail-svg/AgentDock" target="_blank" rel="noreferrer">Source ↗</a>
+              <a href="https://www.youtube.com/watch?v=NdwP83VBurU" target="_blank" rel="noreferrer">YC demo ↗</a>
+              <button class="text-button" type="button" data-expand="agentdock-detail">Under the hood +</button>
+            </div>
+          </div>
+          <div class="project-visual control-plane" aria-label="AgentDock policy gate diagram">
+            <div class="diagram-label mono">Fig. 01 / A governed action</div>
+            <div class="agent-node"><small>Agent intent</small><strong>Send report</strong></div>
+            <div class="flow-line"><span></span></div>
+            <div class="gate-node"><small>Policy gate</small><strong>Approval required</strong><em>Paused safely</em></div>
+            <div class="flow-line muted"><span></span></div>
+            <div class="tool-node"><small>External tool</small><strong>Gmail / send</strong></div>
+            <div class="diagram-footer mono"><span>Deny by default</span><span>Audited</span><span>Budget bound</span></div>
+          </div>
+          <figure class="project-proof-image">
+            <img src="./assets/agentdock-product.png" width="2940" height="1418" loading="lazy" decoding="async" alt="AgentDock workspace showing governed runs, approval inbox, tool usage, costs, completed work, and a halted error">
+            <figcaption><span class="mono">Actual product / Authenticated workspace</span><p>Real governed runs expose steps, tools, cost, status, failures, and approval state—the operational surface behind the control-plane concept.</p></figcaption>
+          </figure>
+          <div class="project-ownership"><span class="mono">What I owned</span><p>Solo project · Product direction, system architecture, frontend, backend, policy engine, integrations, and test suite.</p></div>
+          <div class="project-expanded" id="agentdock-detail" hidden>
+            <div><span class="mono">Hard problem</span><p>Durable execution semantics: a crashed worker cannot double-fire a real-world action, and an approval cannot silently bypass current policy.</p></div>
+            <div><span class="mono">Key decision</span><p>Permissions are resolved and clamped server-side. Prompt text can request capability; it cannot grant capability.</p></div>
+            <div><span class="mono">Engineering</span><p>Next.js, TypeScript, Prisma, PostgreSQL, Auth.js, MCP, SSE, Vitest, Anthropic and OpenAI integrations.</p></div>
+            <div><span class="mono">Verification</span><p>61 test files cover policy integrity, approval idempotency, crash recovery, MCP execution, tenant ownership, and registration security.</p></div>
+            <div><span class="mono">What is real</span><p>Google identity, saved flows, model-backed planning, governed runs, Gmail draft/send, approvals, encrypted keys, durable workers, and streamed run events.</p></div>
+            <div><span class="mono">Boundary</span><p>Prototype, not a production security product. Arbitrary external MCP execution and isolated runtime containers remain unbuilt.</p></div>
+          </div>
+        </article>
+
+        <article class="project project-achp reveal" id="achp">
+          <div class="project-meta mono"><span>02</span><span>Forward-deployed analytics</span><span>Client / Complete</span></div>
+          <div class="project-copy">
+            <h3>ACHP × CMS</h3>
+            <p class="project-thesis">Turned fragmented Medicare Advantage filings into decision-grade evidence for a national healthcare organization.</p>
+            <div class="plain-english"><span class="mono">In plain English</span><p>I made incompatible government datasets agree, then showed ACHP where regional plans were gaining ground—and where strategy needed to change.</p></div>
+            <div class="project-impact">
+              <span>Top-three team</span><span>138,263 × 208 master</span><span>493 / 875 counties</span>
+            </div>
+            <p class="project-detail">Led most of the analysis within a team: built the reproducible CMS pipeline, reconciled changing schemas and geographic grain, validated enrollment logic, and translated market, quality, benefit, and plan-exit signals into client decisions.</p>
+            <div class="project-links">
+              <button class="text-button" type="button" data-expand="achp-detail">Under the hood +</button>
+              <a href="https://www.cms.gov/data-research/statistics-trends-and-reports/medicare-advantagepart-d-contract-and-enrollment-data" target="_blank" rel="noreferrer">CMS data ↗</a>
+              <a href="https://www.cms.gov/data-research/statistics-trends-and-reports/medicare-advantagepart-d-contract-and-enrollment-data/benefits-data" target="_blank" rel="noreferrer">Benefits data ↗</a>
+            </div>
+          </div>
+          <div class="project-visual evidence-chain" aria-label="ACHP evidence chain">
+            <div class="diagram-label mono">Fig. 02 / From filing to decision</div>
+            <ol>
+              <li><span>01</span><div><small>Ingest</small><strong>CMS + member files</strong></div></li>
+              <li><span>02</span><div><small>Reconcile</small><strong>Years, plans, counties</strong></div></li>
+              <li><span>03</span><div><small>Test</small><strong>Cost-shift evidence</strong></div></li>
+              <li><span>04</span><div><small>Decide</small><strong>Policy priorities</strong></div></li>
+            </ol>
+          </div>
+          <figure class="project-proof-image">
+            <img src="./assets/achp-county-result.png" width="1334" height="750" loading="lazy" decoding="async" alt="Final consulting presentation map showing counties where ACHP plans had a competitive cost advantage">
+            <figcaption><span class="mono">Actual result / Final consulting presentation</span><p>ACHP held the stronger cost position in 493 of 875 scored counties. The project was selected among the top three teams schoolwide.</p></figcaption>
+          </figure>
+          <div class="project-ownership"><span class="mono">What I owned</span><p>Analysis lead on a team engagement · Data pipeline, quality assurance, modeling, segmentation, and most analytical work. Teammates contributed research and presentation development.</p></div>
+          <div class="project-expanded" id="achp-detail" hidden>
+            <div><span class="mono">Data engineering</span><p>Automated four staged joins across CMS Landscape, 12 monthly enrollment files, ACHP crosswalks, Star Ratings, display measures, and plan benefits.</p></div>
+            <div><span class="mono">Quality failure</span><p>Found a 12× enrollment overcount created by mismatched geographic granularity and corrected it before modeling or aggregation.</p></div>
+            <div><span class="mono">Analysis</span><p>Enrollment-weighted comparisons, OLS with HC3 robust errors, validated segmentation, county scoring, and plan-exit analysis.</p></div>
+            <div><span class="mono">Verified findings</span><p>ACHP grew 4.6% in AEP 2026; separate benefits analysis found 67.5% of national plans eroded drug benefits versus 41.3% of ACHP plans.</p></div>
+            <div><span class="mono">Client outcome</span><p>The team presented directly to ACHP. The client said it planned to use the work and that it would change where the organization focused its time.</p></div>
+            <div><span class="mono">Deliverable</span><p>A documented 138,263-row, 208-column master dataset, analysis notebooks, data dictionary, dashboards, and client-facing market-trends deck.</p></div>
+          </div>
+        </article>
+
+        <article class="project project-opspilot reveal" id="opspilot">
+          <div class="project-meta mono"><span>03</span><span>Applied machine learning</span><span>Model deployed</span></div>
+          <div class="project-copy">
+            <h3>OpsPilot</h3>
+            <p class="project-thesis">A support-routing copilot where redesigning the labels mattered more than another round of model tuning.</p>
+            <div class="plain-english"><span class="mono">In plain English</span><p>It reads a support request, recommends the right operating queue, and sends uncertain or sensitive cases back to a person.</p></div>
+            <div class="project-impact"><span>52.3% → 73.1%</span><span>ModernBERT</span><span>7 operational queues</span></div>
+            <p class="project-detail">Fine-tuned and deployed a ModernBERT classifier, diagnosed overlapping support categories, redesigned a ten-label taxonomy into seven operational queues, and added confidence-gated human review.</p>
+            <div class="project-links">
+              <a href="https://github.com/shubhamjoshipromail-svg/opspilot-ai/tree/codex/ticket-intelligence" target="_blank" rel="noreferrer">Source ↗</a>
+              <a href="https://huggingface.co/shubhamjoshipro/opspilot-routing-modernbert-base-clean-v1" target="_blank" rel="noreferrer">Model ↗</a>
+              <a href="https://huggingface.co/datasets/Tobi-Bueck/customer-support-tickets" target="_blank" rel="noreferrer">Dataset ↗</a>
+              <button class="text-button" type="button" data-expand="opspilot-detail">Under the hood +</button>
+            </div>
+          </div>
+          <div class="project-visual taxonomy-visual" aria-label="OpsPilot workflow from error analysis through taxonomy redesign to confidence-gated routing">
+            <div class="diagram-label mono">Fig. 03 / The intervention</div>
+            <div class="taxonomy-step"><span>01</span><small>Error analysis</small><strong>Overlapping queues</strong></div>
+            <div class="taxonomy-arrow">↓</div>
+            <div class="taxonomy-step active"><span>02</span><small>Task redesign</small><strong>10 labels → 7 operational families</strong></div>
+            <div class="taxonomy-arrow">↓</div>
+            <div class="taxonomy-step"><span>03</span><small>Deployment rule</small><strong>Route or return to a human</strong></div>
+          </div>
+          <figure class="project-proof-image opspilot-evidence">
+            <div class="benchmark-chart" role="img" aria-label="Validation accuracy comparison: TF-IDF logistic regression 44.1 percent, CNN 52.4 percent, ModernBERT with original taxonomy 52.3 percent, ModernBERT with redesigned taxonomy 73.1 percent">
+              <span class="mono evidence-kicker">Actual evaluation / Held-out validation</span>
+              <div class="benchmark-row"><span>TF-IDF + Logistic Regression</span><i style="--score:44.1%"></i><strong>44.1%</strong></div>
+              <div class="benchmark-row"><span>TensorFlow CNN</span><i style="--score:52.4%"></i><strong>52.4%</strong></div>
+              <div class="benchmark-row"><span>ModernBERT · original labels</span><i style="--score:52.3%"></i><strong>52.3%</strong></div>
+              <div class="benchmark-row winner"><span>ModernBERT · redesigned labels</span><i style="--score:73.1%"></i><strong>73.1%</strong></div>
+            </div>
+            <figcaption><span class="mono">Deployment behavior / Threshold 0.80</span><div class="threshold-numbers"><strong>62.3%</strong><small>tickets auto-routed</small><strong>85.5%</strong><small>accuracy on that subset</small></div><p>The model abstains when confidence is insufficient; automation coverage is traded for reliability instead of forcing every prediction.</p></figcaption>
+          </figure>
+          <div class="project-ownership"><span class="mono">What I owned</span><p>Solo project · Dataset pipeline, taxonomy redesign, ModernBERT training, evaluation, model publication, and product integration.</p></div>
+          <div class="project-expanded" id="opspilot-detail" hidden>
+            <div><span class="mono">Dataset</span><p>23,747 English support tickets from a public labeled dataset, split deterministically for training, validation, and evaluation workflows.</p></div>
+            <div><span class="mono">Diagnosis</span><p>The original ten queues overlapped operationally—technical, product, IT, and general support often described the same underlying work.</p></div>
+            <div><span class="mono">Key decision</span><p>Merged the taxonomy into seven operational parent queues before further tuning, improving validation accuracy from 52.3% to 73.1%.</p></div>
+            <div><span class="mono">Model evidence</span><p>The public Hugging Face artifact contains ModernBERT weights, tokenizer, label mapping, training configuration, and checkpoint history.</p></div>
+            <div><span class="mono">Human boundary</span><p>Confidence and policy rules determine whether routing is suggested automatically or returned for human or supervisor review.</p></div>
+            <div><span class="mono">Boundary</span><p>73.1% is validation accuracy for the seven-label model, not evidence of production performance on a company's live support distribution.</p></div>
+          </div>
+        </article>
+
+        <article class="project project-vibe reveal" id="vibe-curator">
+          <div class="project-meta mono"><span>04</span><span>Generative product</span><span>Self-initiated / 2026</span></div>
+          <div class="project-copy">
+            <h3>Vibe Curator</h3>
+            <p class="project-thesis">An AI-native creative environment where generated media stays editable instead of ending as a flattened file.</p>
+            <div class="plain-english"><span class="mono">In plain English</span><p>You describe a visual world, then keep shaping its image, motion, atmosphere, and music instead of downloading one finished output.</p></div>
+            <div class="project-impact"><span>4 AI providers</span><span>WebGL compositor</span><span>Editable scene graph</span></div>
+            <p class="project-detail">Designed and built the product because I wanted it: generated images, music, video, and guarded shaders enter the same persistent, source-aware editor and full-screen player.</p>
+            <div class="project-links"><a href="https://github.com/shubhamjoshipromail-svg/vibe-curator" target="_blank" rel="noreferrer">Source ↗</a><button class="text-button" type="button" data-expand="vibe-detail">Under the hood +</button></div>
+          </div>
+          <div class="project-visual vibe-visual" aria-label="Abstract preview of Vibe Curator scene layers">
+            <div class="vibe-orb orb-one"></div><div class="vibe-orb orb-two"></div><div class="vibe-grid"></div>
+            <div class="vibe-caption mono"><span>Source</span><span>Treatment</span><span>Atmosphere</span><span>Sound</span></div>
+          </div>
+          <figure class="project-proof-image">
+            <img src="./assets/vibe-curator-product.png" width="1440" height="1000" loading="lazy" decoding="async" alt="Vibe Curator's locally running generative visual creation workspace">
+            <figcaption><span class="mono">Actual product / Local build</span><p>The working creation surface separates source generation from motion and sound, keeping the resulting scene editable and reusable.</p></figcaption>
+          </figure>
+          <div class="project-ownership"><span class="mono">What I owned</span><p>Solo project · Product concept, interaction design, generative-provider integrations, scene model, shader safeguards, and WebGL renderer.</p></div>
+          <div class="project-expanded" id="vibe-detail" hidden>
+            <div><span class="mono">Product model</span><p>Every project is a structured, editable preset—source media, treatments, shaders, sound, performance preference, and lineage—not a flattened export.</p></div>
+            <div><span class="mono">Generative stack</span><p>OpenAI generates source images, ElevenLabs generates music, Anthropic creates guarded shader effects, and Gemini Veo supplies the video path.</p></div>
+            <div><span class="mono">Rendering</span><p>A shared Pixi/WebGL scene runtime combines uploaded or generated media with source-aware motion analysis and parameterized GLSL effects.</p></div>
+            <div><span class="mono">Safety decision</span><p>Generated shader code passes static guards and compilation checks before it can enter the live rendering pipeline.</p></div>
+            <div><span class="mono">Performance</span><p>Explore, Labs, and Player use different frame-rate budgets while sharing one scene and audio engine, preserving continuity without rendering everything at full rate.</p></div>
+            <div><span class="mono">Boundary</span><p>The working prototype is local-first. Native packaging, cloud accounts, synchronization, and a real marketplace remain future work.</p></div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="more-work" id="more-work">
+      <div class="section-intro compact reveal">
+        <p class="mono section-number">03 / Additional systems</p>
+        <h2>Built to answer a specific question.</h2>
+      </div>
+      <div class="work-grid">
+        <a class="work-tile reveal" href="https://github.com/shubhamjoshipromail-svg/rxcheck" target="_blank" rel="noreferrer"><span class="mono">Clinical AI</span><h3>RxCheck</h3><p>Deterministic drug-interaction detection. The model explains; it never decides.</p><em>View source ↗</em></a>
+        <a class="work-tile reveal" href="https://github.com/shubhamjoshipromail-svg/hacknation_bluejays" target="_blank" rel="noreferrer"><span class="mono">Voice agents</span><h3>Negotiator</h3><p>An autonomous voice negotiation system with explicit deal policies and constraints.</p><em>View source ↗</em></a>
+        <a class="work-tile reveal" href="https://github.com/shubhamjoshipromail-svg/fridgechef" target="_blank" rel="noreferrer"><span class="mono">Consumer AI</span><h3>FridgeChef</h3><p>Fridge and receipt scans become structured inventory and streamed recipes.</p><em>View source ↗</em></a>
+        <a class="work-tile reveal" href="https://github.com/shubhamjoshipromail-svg/nimbus" target="_blank" rel="noreferrer"><span class="mono">14-hour build</span><h3>Nimbus</h3><p>A tool-using burnout companion built during the Pava product hackathon.</p><em>View source ↗</em></a>
+      </div>
+    </section>
+
+    <section class="experience" id="experience">
+      <div class="section-intro compact reveal">
+        <p class="mono section-number">04 / Experience</p>
+        <h2>Engineering is only useful when someone can act on it.</h2>
+      </div>
+      <div class="experience-list">
+        <article class="reveal"><span class="mono">2025–26</span><h3>MS, Business Analytics &amp; AI</h3><p>Johns Hopkins University · Dean's Scholarship</p></article>
+        <article class="reveal"><span class="mono">2025–26</span><h3>Co-founder, BAAIO</h3><p>Helped grow Johns Hopkins' applied-AI organization to 100+ registered members; led technical workshops and programming.</p></article>
+        <article class="reveal"><span class="mono">2021–24</span><h3>Instructor &amp; facilitator</h3><p>Designed communication programs for adult professionals across varied backgrounds, maintaining 95%+ retention.</p></article>
+      </div>
+      <div class="signal-grid reveal" aria-label="Selected achievements">
+        <div><span class="mono">Academic</span><strong>Dean's Scholarship</strong><p>Johns Hopkins University</p></div>
+        <div><span class="mono">Certification</span><strong>Azure AI Fundamentals</strong><p>Microsoft AI-900</p></div>
+        <div><span class="mono">Community</span><strong>100+ registered members</strong><p>BAAIO, co-founded at Johns Hopkins</p></div>
+        <div><span class="mono">Client signal</span><strong>Top-three team</strong><p>Schoolwide consulting selection; analysis presented to ACHP for strategic use</p></div>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <p class="mono section-number reveal">05 / About</p>
+      <div class="about-grid">
+        <h2 class="reveal">I am most useful where product, models, data, and people collide.</h2>
+        <div class="about-copy reveal">
+          <p>I recently completed my master's in Business Analytics &amp; AI at Johns Hopkins. My work moves between deep technical implementation and the person who needs the result—whether that is an operator approving an agent action, a healthcare client defending a policy position, or a creator shaping generated media.</p>
+          <p>I have lived and worked across Japan, Australia, and the United States, and speak English, Japanese, Nepali, and Hindi at native level.</p>
+          <dl><div><dt>Best fit</dt><dd>Applied AI · Forward deployed · Founding engineer · Data science</dd></div><div><dt>Education</dt><dd>Johns Hopkins MS, completed 2026</dd></div><div><dt>Current focus</dt><dd>AgentDock and applied AI systems</dd></div></dl>
+        </div>
+      </div>
+    </section>
+
+    <section class="network" id="network" aria-labelledby="network-title">
+      <div class="network-heading reveal"><p class="mono">06 / Elsewhere</p><h2 id="network-title">Code, models,<br>writing, and demos.</h2></div>
+      <div class="network-links reveal">
+        <a href="https://github.com/shubhamjoshipromail-svg" target="_blank" rel="noreferrer"><span>GitHub</span><small>Source and build history</small><em>↗</em></a>
+        <a href="https://huggingface.co/shubhamjoshipro" target="_blank" rel="noreferrer"><span>Hugging Face</span><small>Trained model artifacts</small><em>↗</em></a>
+        <a href="https://www.linkedin.com/in/shubham-joshi1/" target="_blank" rel="noreferrer"><span>LinkedIn</span><small>Technical writing and updates</small><em>↗</em></a>
+        <a href="https://www.youtube.com/watch?v=NdwP83VBurU" target="_blank" rel="noreferrer"><span>YouTube</span><small>AgentDock YC walkthrough</small><em>↗</em></a>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <p class="mono">07 / Contact</p>
+      <h2>Have a difficult problem<br>and real ownership?</h2>
+      <a class="contact-link" href="mailto:shubhamjoshipro.mail@gmail.com">shubhamjoshipro.mail@gmail.com <span>↗</span></a>
+      <div class="contact-social mono">
+        <a href="https://github.com/shubhamjoshipromail-svg" target="_blank" rel="noreferrer">GitHub ↗</a>
+        <a href="https://www.linkedin.com/in/shubham-joshi1/" target="_blank" rel="noreferrer">LinkedIn ↗</a>
+        <a href="https://huggingface.co/shubhamjoshipro" target="_blank" rel="noreferrer">Hugging Face ↗</a>
+        <a href="https://www.youtube.com/watch?v=NdwP83VBurU" target="_blank" rel="noreferrer">YouTube ↗</a>
+      </div>
+      <div class="contact-footer mono"><span>Open to high-ownership AI and data roles</span><span>© 2026 Shubham Joshi</span></div>
+    </section>
+  </main>
+
+  <script src="./script.js"></script>
+</body>
 </html>

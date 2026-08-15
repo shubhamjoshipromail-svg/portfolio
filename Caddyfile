@@ -13,7 +13,7 @@
         Permissions-Policy "camera=(), microphone=(), geolocation=()"
     }
 
-    @static path *.css *.js *.png *.jpg *.jpeg *.webp *.woff2
+    @static path *.css *.js *.png *.jpg *.jpeg *.webp *.woff2 *.pdf
     header @static Cache-Control "public, max-age=604800"
 
     handle /api/* {

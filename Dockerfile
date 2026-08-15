@@ -19,7 +19,7 @@ RUN pip install --no-cache-dir -r /app/backend/requirements.txt
 COPY backend /app/backend
 
 RUN mkdir -p /srv
-COPY index.html styles.css script.js /srv/
+COPY index.html styles.css script.js robots.txt sitemap.xml /srv/
 COPY assets /srv/assets
 COPY Images /srv/Images
 

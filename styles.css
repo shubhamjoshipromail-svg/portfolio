@@ -26,3 +26,8 @@
 .resume-card{min-height:285px;padding:22px;color:inherit;text-decoration:none;border-right:1px solid var(--ink);display:flex;flex-direction:column;transition:background .2s,color .2s}.resume-card:last-child{border-right:0}.resume-card:hover{background:var(--signal);color:#fff}.resume-card>span{color:var(--signal)}.resume-card:hover>span{color:#fff}
 .resume-card strong{font:500 clamp(25px,2.3vw,36px)/1.08 var(--serif);margin:auto 0 18px}.resume-card p{margin:0 0 28px;color:var(--muted)}.resume-card:hover p{color:#fff}.resume-card em{font:400 10px var(--mono);font-style:normal;text-transform:uppercase}
 @media(max-width:900px){.resume-section{padding:80px 0}.resume-heading{grid-template-columns:1fr}.resume-grid{grid-template-columns:1fr}.resume-card{min-height:220px;border-right:0;border-bottom:1px solid var(--ink)}.resume-card:last-child{border-bottom:0}}
+
+/* ACHP now uses the same signal family as the rest of the portfolio. */
+.evidence-chain{background:linear-gradient(145deg,#a92f18 0%,var(--signal) 62%,#f06a47 100%)}
+.evidence-chain li{border-top-color:rgba(255,255,255,.42)}
+.evidence-chain li>span,.evidence-chain small{color:#ffd7cb}

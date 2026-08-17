@@ -48,3 +48,8 @@
 
 @media(max-width:900px){.resume-section{grid-template-columns:1fr;padding:76px 0}.resume-heading{padding-right:0;margin-bottom:42px}.resume-heading>p{margin-bottom:26px}.resume-card{grid-template-columns:44px 1fr auto}.resume-card p{grid-column:2/4}.project-achp .project-proof-image img{height:auto;max-height:none}}
 @media(max-width:560px){.resume-card{grid-template-columns:34px 1fr;padding:21px 10px;gap:12px}.resume-card p{grid-column:2}.resume-card em{grid-column:2}.resume-card-featured:before{width:3px}}
+
+/* Expanded engineering notes belong directly after each project overview. */
+.project-expanded{order:1;margin-top:18px}
+.project-proof-image{order:2}
+.project-ownership{order:3}

@@ -38,6 +38,12 @@ document.querySelectorAll("[data-expand]").forEach((button) => {
     target.hidden = !isOpening;
     button.textContent = isOpening ? openLabel : closedLabel;
     button.setAttribute("aria-expanded", String(isOpening));
+    if (isOpening) {
+      requestAnimationFrame(() => target.scrollIntoView({
+        behavior: reducedMotion ? "auto" : "smooth",
+        block: "nearest"
+      }));
+    }
   });
 });
 

@@ -31,3 +31,20 @@
 .evidence-chain{background:linear-gradient(145deg,#a92f18 0%,var(--signal) 62%,#f06a47 100%)}
 .evidence-chain li{border-top-color:rgba(255,255,255,.42)}
 .evidence-chain li>span,.evidence-chain small{color:#ffd7cb}
+
+/* A compact resume index breaks the three-card rhythm without leaving the Swiss grid. */
+.resume-section{display:grid;grid-template-columns:4fr 8fr;gap:20px;padding:92px 0}
+.resume-heading{display:block;margin:0;padding-right:10%}.resume-heading>p{margin:7px 0 46px}
+.resume-heading h2{font-size:clamp(38px,3.9vw,61px)}.resume-heading div>p{font-size:16px;margin-top:22px}
+.resume-grid{display:block;border:0;border-top:1px solid var(--ink)}
+.resume-card{position:relative;min-height:0;padding:25px 18px;display:grid;grid-template-columns:54px minmax(230px,1.25fr) minmax(220px,1fr) auto;gap:22px;align-items:center;border:0;border-bottom:1px solid var(--ink)}
+.resume-card:last-child{border-bottom:1px solid var(--ink)}.resume-card>span{align-self:center}.resume-card strong{font:500 clamp(23px,2vw,31px)/1.08 var(--serif);margin:0}.resume-card p{margin:0;font-size:14px}.resume-card em{white-space:nowrap}
+.resume-card-featured:before{content:"";position:absolute;inset:0 auto 0 0;width:5px;background:var(--signal)}
+.resume-card:hover{background:var(--ink);color:var(--paper)}
+.resume-card-featured:hover{background:var(--signal)}
+
+/* Show the full presentation slide, including the map at the lower edge. */
+.project-achp .project-proof-image img{height:auto;min-height:0;object-fit:contain;object-position:center;background:#fff}
+
+@media(max-width:900px){.resume-section{grid-template-columns:1fr;padding:76px 0}.resume-heading{padding-right:0;margin-bottom:42px}.resume-heading>p{margin-bottom:26px}.resume-card{grid-template-columns:44px 1fr auto}.resume-card p{grid-column:2/4}.project-achp .project-proof-image img{height:auto;max-height:none}}
+@media(max-width:560px){.resume-card{grid-template-columns:34px 1fr;padding:21px 10px;gap:12px}.resume-card p{grid-column:2}.resume-card em{grid-column:2}.resume-card-featured:before{width:3px}}

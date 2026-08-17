@@ -26,14 +26,17 @@ if (reducedMotion) {
 }
 
 document.querySelectorAll("[data-expand]").forEach((button) => {
+  const closedLabel = "Under the hood +";
+  const openLabel = "Close details ↑";
   button.setAttribute("aria-expanded", "false");
   button.setAttribute("aria-controls", button.dataset.expand);
+  button.textContent = closedLabel;
   button.addEventListener("click", () => {
     const target = document.getElementById(button.dataset.expand);
     if (!target) return;
     const isOpening = target.hidden;
     target.hidden = !isOpening;
-    button.textContent = button.textContent.replace(isOpening ? "+" : "−", isOpening ? "−" : "+");
+    button.textContent = isOpening ? openLabel : closedLabel;
     button.setAttribute("aria-expanded", String(isOpening));
   });
 });

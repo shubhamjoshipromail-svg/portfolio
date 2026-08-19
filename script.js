@@ -1,6 +1,30 @@
 const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 const progress = document.querySelector(".progress span");
 const reveals = [...document.querySelectorAll(".reveal")];
+const heroType = document.querySelector(".hero-type");
+
+if (heroType && !reducedMotion) {
+  const textNode = heroType.querySelector(".hero-type-text");
+  const fullText = heroType.dataset.fullText || "";
+  const characters = Array.from(fullText);
+  const duration = 2000;
+
+  textNode.textContent = "";
+  document.fonts.ready.then(() => {
+    const startedAt = performance.now();
+    const typeFrame = (now) => {
+      const progress = Math.min((now - startedAt) / duration, 1);
+      const characterCount = Math.min(Math.ceil(progress * characters.length), characters.length);
+      textNode.textContent = characters.slice(0, characterCount).join("");
+      if (progress < 1) {
+        requestAnimationFrame(typeFrame);
+      } else {
+        heroType.classList.add("is-complete");
+      }
+    };
+    requestAnimationFrame(typeFrame);
+  });
+}
 
 const setProgress = () => {
   const distance = document.documentElement.scrollHeight - innerHeight;

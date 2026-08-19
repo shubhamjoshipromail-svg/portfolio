@@ -53,3 +53,12 @@
 .project-expanded{order:1;margin-top:18px}
 .project-proof-image{order:2}
 .project-ownership{order:3}
+
+/* Reserve the final headline shape while the visible copy types over it. */
+.hero-type{display:grid}
+.hero-type:after,.hero-type-visual{grid-area:1/1}
+.hero-type:after{content:attr(data-full-text);visibility:hidden}
+.hero-type-cursor{color:var(--signal);font-weight:400;margin-left:.035em}
+.hero-type.is-complete .hero-type-cursor{animation:cursor-blink .82s steps(1,end) infinite}
+@keyframes cursor-blink{50%{opacity:0}}
+@media(prefers-reduced-motion:reduce){.hero-type-cursor{animation:none!important}}

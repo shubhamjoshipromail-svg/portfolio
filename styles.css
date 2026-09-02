@@ -53,10 +53,10 @@
 .project-expanded{order:1;margin-top:18px}
 .project-proof-image{order:2}
 .project-ownership{order:3}
-.vibe-demo-proof{grid-template-columns:1fr;background:#080a10}
-.vibe-demo-proof>a{display:block;line-height:0}
-.vibe-demo-proof img{width:100%;height:auto;aspect-ratio:47/18;object-fit:contain;border-right:0;background:#080a10}
-.vibe-demo-proof figcaption{background:var(--paper);border-top:1px solid var(--ink);min-height:150px}
+.vibe-demo-primary{min-height:0;aspect-ratio:47/18;align-self:center;background:#080a10;display:grid;place-items:center}
+.vibe-demo-primary a{display:block;width:100%;line-height:0}
+.vibe-demo-primary img{display:block;width:100%;height:100%;object-fit:contain}
+.vibe-demo-primary>span{position:absolute;left:18px;bottom:16px;padding:7px 9px;background:rgba(8,10,16,.82);color:#9ce3b4}
 
 /* Reserve the final headline shape while the visible copy types over it. */
 .hero-type{display:grid}

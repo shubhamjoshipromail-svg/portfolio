@@ -273,18 +273,18 @@
             <div class="vibe-orb orb-one"></div><div class="vibe-orb orb-two"></div><div class="vibe-grid"></div>
             <div class="vibe-caption mono"><span>Source</span><span>Treatment</span><span>Atmosphere</span><span>Sound</span></div>
           </div>
-          <figure class="project-proof-image">
-            <img src="./assets/vibe-curator-product.png" width="1440" height="1000" loading="lazy" decoding="async" alt="Vibe Curator's locally running generative visual creation workspace">
-            <figcaption><span class="mono">Actual product / Live deployment</span><p>The working creation surface separates source generation from motion and sound, keeping the resulting scene editable and reusable.</p></figcaption>
+          <figure class="project-proof-image vibe-demo-proof">
+            <a href="https://vibe-curator-production.up.railway.app" target="_blank" rel="noreferrer" aria-label="Try Vibe Curator Beta 2"><img src="./assets/vibe-curator-beta2-hd.webp" width="1880" height="720" loading="lazy" decoding="async" alt="Animated Vibe Curator Beta 2 demo: create an editable moonlit scene, add atmosphere and music, then use it in Chrome or as a local desktop wallpaper"></a>
+            <figcaption><span class="mono">Beta 2 / Live now</span><p>Describe a world, keep every layer editable, then carry the finished scene into Chrome or your desktop.</p></figcaption>
           </figure>
           <div class="project-ownership"><span class="mono">What I owned</span><p>Solo project · Product concept, interaction design, generative provider integrations, scene model, shader safeguards, and WebGL renderer.</p></div>
           <div class="project-expanded" id="vibe-detail" hidden>
             <div><span class="mono">Product model</span><p>Every project is a structured, editable preset with source media, treatments, shaders, sound, performance preferences, and lineage. It is not a flattened export.</p></div>
-            <div><span class="mono">Generative stack</span><p>OpenAI generates source images, ElevenLabs generates music, Anthropic creates guarded shader effects, and Gemini Veo supplies the video path.</p></div>
+            <div><span class="mono">Generative stack</span><p>OpenAI generates source images, Google Lyria generates the default music path, Anthropic creates guarded shader effects, and Gemini Veo supplies optional motion drafts.</p></div>
             <div><span class="mono">Rendering</span><p>A shared Pixi and WebGL scene runtime combines uploaded or generated media with motion analysis that understands the source and parameterized GLSL effects.</p></div>
             <div><span class="mono">Safety decision</span><p>Generated shader code passes static guards and compilation checks before it can enter the live rendering pipeline.</p></div>
             <div><span class="mono">Performance</span><p>Explore, Labs, and Player use different frame rate budgets while sharing one scene and audio engine, preserving continuity without rendering everything at full rate.</p></div>
-            <div><span class="mono">Boundary</span><p>The working prototype prioritizes local use. Native packaging, cloud accounts, synchronization, and a real marketplace remain future work.</p></div>
+            <div><span class="mono">Beta boundary</span><p>The web beta, accounts, persistent projects, Chrome companion, and Apple-silicon technical-tester build are live. Apple notarization, private object storage, and a mature creator marketplace remain later work.</p></div>
           </div>
         </article>
       </div>

@@ -53,6 +53,10 @@
 .project-expanded{order:1;margin-top:18px}
 .project-proof-image{order:2}
 .project-ownership{order:3}
+.vibe-demo-proof{grid-template-columns:1fr;background:#080a10}
+.vibe-demo-proof>a{display:block;line-height:0}
+.vibe-demo-proof img{width:100%;height:auto;aspect-ratio:47/18;object-fit:contain;border-right:0;background:#080a10}
+.vibe-demo-proof figcaption{background:var(--paper);border-top:1px solid var(--ink);min-height:150px}
 
 /* Reserve the final headline shape while the visible copy types over it. */
 .hero-type{display:grid}

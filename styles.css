@@ -66,3 +66,6 @@
 .hero-type.is-complete .hero-type-cursor{animation:cursor-blink .82s steps(1,end) infinite}
 @keyframes cursor-blink{50%{opacity:0}}
 @media(prefers-reduced-motion:reduce){.hero-type-cursor{animation:none!important}}
+
+.project-tacet .project-proof-image img{height:clamp(300px,34vw,500px);object-fit:contain;object-position:center;background:#f3f0e9}
+@media(max-width:900px){.project-tacet .project-proof-image img{height:auto;max-height:none}}

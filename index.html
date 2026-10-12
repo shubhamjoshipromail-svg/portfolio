@@ -78,14 +78,14 @@
         <p class="hero-deck">Agents, trained models, data pipelines, and products built from first question to deployed system.</p>
         <div class="hero-actions">
           <a class="button button-dark" href="#work">View selected work <span>↓</span></a>
-          <a class="button" href="https://www.youtube.com/watch?v=NdwP83VBurU" target="_blank" rel="noreferrer">Watch AgentDock <span>↗</span></a>
+          <a class="button" href="https://core-production-332c.up.railway.app" target="_blank" rel="noreferrer">See Tacet live <span>↗</span></a>
         </div>
       </div>
       <div class="hero-proof" aria-label="Selected evidence">
-        <a class="reveal" href="#agentdock"><span class="proof-number">61</span><span class="proof-label">AgentDock test files across policy and execution</span><span class="proof-jump">01 ↓</span></a>
-        <a class="reveal" href="#opspilot"><span class="proof-number">73.1%</span><span class="proof-label">ModernBERT validation accuracy</span><span class="proof-jump">03 ↓</span></a>
-        <a class="reveal" href="#achp"><span class="proof-number">138,263</span><span class="proof-label">rows in the ACHP master dataset</span><span class="proof-jump">02 ↓</span></a>
-        <a class="reveal" href="#vibe-curator"><span class="proof-number">4</span><span class="proof-label">AI providers in one creative system</span><span class="proof-jump">04 ↓</span></a>
+        <a class="reveal" href="#tacet"><span class="proof-number">480+</span><span class="proof-label">Tacet tests, engine to tenancy</span><span class="proof-jump">01 ↓</span></a>
+        <a class="reveal" href="#opspilot"><span class="proof-number">73.1%</span><span class="proof-label">ModernBERT validation accuracy</span><span class="proof-jump">04 ↓</span></a>
+        <a class="reveal" href="#achp"><span class="proof-number">138,263</span><span class="proof-label">rows in the ACHP master dataset</span><span class="proof-jump">03 ↓</span></a>
+        <a class="reveal" href="#vibe-curator"><span class="proof-number">4</span><span class="proof-label">AI providers in one creative system</span><span class="proof-jump">05 ↓</span></a>
       </div>
     </section>
 
@@ -102,8 +102,8 @@
         <h2 id="role-paths-title">One builder.<br>Three hiring lenses.</h2>
       </div>
       <div class="role-path-grid">
-        <a class="role-path reveal" href="#agentdock"><span class="mono">Applied AI engineering</span><strong>Systems that plan, predict, and create.</strong><p>AgentDock + OpsPilot + Vibe Curator</p><em>Agents, models, products →</em></a>
-        <a class="role-path reveal" href="#achp"><span class="mono">Forward deployed</span><strong>Ambiguity converted into a client decision.</strong><p>ACHP × CMS + AgentDock</p><em>Discovery through delivery →</em></a>
+        <a class="role-path reveal" href="#tacet"><span class="mono">Applied AI engineering</span><strong>Systems that plan, predict, and create.</strong><p>Tacet + AgentDock + OpsPilot</p><em>Agents, models, products →</em></a>
+        <a class="role-path reveal" href="#achp"><span class="mono">Forward deployed</span><strong>Ambiguity converted into a client decision.</strong><p>ACHP × CMS + Tacet</p><em>Discovery through delivery →</em></a>
         <a class="role-path reveal" href="#opspilot"><span class="mono">Data science</span><strong>Better decisions before bigger models.</strong><p>OpsPilot + ACHP × CMS</p><em>Data, statistics, ML →</em></a>
       </div>
     </section>
@@ -129,13 +129,53 @@
     <section class="work-section" id="work">
       <div class="section-intro reveal">
         <p class="mono section-number">02 / Selected work</p>
-        <h2>Four kinds of evidence.<br>One operating style.</h2>
+        <h2>Five kinds of evidence.<br>One operating style.</h2>
         <p>Build deeply. Validate the part that can fail. Make the result legible to the person who has to use it.</p>
       </div>
 
       <div class="project-list">
+        <article class="project project-tacet reveal" id="tacet">
+          <div class="project-meta mono"><span>01</span><span>Founder / expert judgment for AI</span><span>Active / 2026</span></div>
+          <div class="project-copy">
+            <h3>Tacet</h3>
+            <p class="project-thesis">Learns the rules an expert never wrote down, tests them on cases the expert never showed, and hands them to AI agents and new hires.</p>
+            <div class="plain-english"><span class="mono">In plain English</span><p>It watches a senior operator work, guesses each decision first, and asks one short question only when its guess was wrong. The answer becomes a rule in their words that an agent can follow and a new hire can learn from.</p></div>
+            <div class="project-impact">
+              <span>Live early access</span><span>480+ automated tests</span><span>One question: 96% → 100% held back</span>
+            </div>
+            <p class="project-detail">Founded and built it solo, from the HackNation × ElevenLabs prototype to a multi-tenant product: a plain-Python learning engine that weighs the value of a question against the cost of interrupting, sealed tests whose predictions are hashed before any human label, a voice interviewer and tutor, MCP and API exports, a Chrome extension, and a CSV import that learns a bookkeeper's rules from last month's ledger.</p>
+            <div class="project-links">
+              <a href="https://core-production-332c.up.railway.app" target="_blank" rel="noreferrer">Live product ↗</a>
+              <a href="https://core-production-332c.up.railway.app/app" target="_blank" rel="noreferrer">Try the demo ↗</a>
+              <button class="text-button" type="button" data-expand="tacet-detail">Under the hood +</button>
+            </div>
+          </div>
+          <div class="project-visual control-plane" aria-label="Tacet learning loop diagram">
+            <div class="diagram-label mono">Fig. 01 / One rule learned</div>
+            <div class="agent-node"><small>Prediction missed</small><strong>Expert booked it as capex</strong></div>
+            <div class="flow-line"><span></span></div>
+            <div class="gate-node"><small>At a pause</small><strong>"Why capex?"</strong><em>Asked once</em></div>
+            <div class="flow-line muted"><span></span></div>
+            <div class="tool-node"><small>Work Map rule</small><strong>Net over 3,600 → capex</strong></div>
+            <div class="diagram-footer mono"><span>Predict first</span><span>Expert's words</span><span>Sealed test</span></div>
+          </div>
+          <figure class="project-proof-image">
+            <img src="./assets/tacet-product.jpg" width="2940" height="1420" loading="lazy" decoding="async" alt="Tacet product page explaining predict, ask once, prove, and teach and export, with a blocked save quoting the expert">
+            <figcaption><span class="mono">Actual product / Live landing page</span><p>The same rule drives three outputs: a new-hire tutor that blocks a wrong save with the expert's sentence, an agent export over API and MCP, and a pilot report with sealed-test accuracy.</p></figcaption>
+          </figure>
+          <div class="project-ownership"><span class="mono">What I owned</span><p>Founder, solo · Customer research, product, engine, backend, console, extension, voice agents, deployment, and test suite.</p></div>
+          <div class="project-expanded" id="tacet-detail" hidden>
+            <div><span class="mono">Hard problem</span><p>Proving a rule was learned rather than claimed. Predictions on fresh boundary cases are frozen and SHA-256 committed before a human labels them, and misses re-fit the rule.</p></div>
+            <div><span class="mono">Key decision</span><p>The engine is plain Python with Bayesian thresholds; language models only translate. A compiled rule must quote the expert verbatim and reproduce their past behaviour before it counts.</p></div>
+            <div><span class="mono">Engineering</span><p>Python, FastAPI, numpy, SQLAlchemy, Postgres, Alembic, React, TypeScript, Chrome MV3, ElevenLabs agents, MCP, Playwright, GitHub Actions, Railway.</p></div>
+            <div><span class="mono">Verification</span><p>480+ tests, including cross-tenant checks generated from every route, plus ten real-browser journeys run against live models before each release.</p></div>
+            <div><span class="mono">What is real</span><p>Email-code sign-in, per-organisation data separation, personal-data scrubbing before storage and model calls, a daily model-spend cap, and sessions that survive restarts.</p></div>
+            <div><span class="mono">Boundary</span><p>Early access. The 96% → 100% result is one real-model run on the sample ledger; the first pilots with outside experts are what come next.</p></div>
+          </div>
+        </article>
+
         <article class="project project-agentdock reveal" id="agentdock">
-          <div class="project-meta mono"><span>01</span><span>Agent infrastructure</span><span>Active / 2026</span></div>
+          <div class="project-meta mono"><span>02</span><span>Agent infrastructure</span><span>Prototype / 2026</span></div>
           <div class="project-copy">
             <h3>AgentDock</h3>
             <p class="project-thesis">A control plane for AI agents that can use real tools while keeping permissions, budgets, and approval rules outside the prompt.</p>
@@ -152,7 +192,7 @@
             </div>
           </div>
           <div class="project-visual control-plane" aria-label="AgentDock policy gate diagram">
-            <div class="diagram-label mono">Fig. 01 / A governed action</div>
+            <div class="diagram-label mono">Fig. 02 / A governed action</div>
             <div class="agent-node"><small>Agent intent</small><strong>Send report</strong></div>
             <div class="flow-line"><span></span></div>
             <div class="gate-node"><small>Policy gate</small><strong>Approval required</strong><em>Paused safely</em></div>
@@ -176,7 +216,7 @@
         </article>
 
         <article class="project project-achp reveal" id="achp">
-          <div class="project-meta mono"><span>02</span><span>Forward deployed analytics</span><span>Client / Complete</span></div>
+          <div class="project-meta mono"><span>03</span><span>Forward deployed analytics</span><span>Client / Complete</span></div>
           <div class="project-copy">
             <h3>ACHP × CMS</h3>
             <p class="project-thesis">Turned fragmented Medicare Advantage filings into decision grade evidence for a national healthcare organization.</p>
@@ -192,7 +232,7 @@
             </div>
           </div>
           <div class="project-visual evidence-chain" aria-label="ACHP evidence chain">
-            <div class="diagram-label mono">Fig. 02 / From filing to decision</div>
+            <div class="diagram-label mono">Fig. 03 / From filing to decision</div>
             <ol>
               <li><span>01</span><div><small>Ingest</small><strong>CMS + member files</strong></div></li>
               <li><span>02</span><div><small>Reconcile</small><strong>Years, plans, counties</strong></div></li>
@@ -216,7 +256,7 @@
         </article>
 
         <article class="project project-opspilot reveal" id="opspilot">
-          <div class="project-meta mono"><span>03</span><span>Applied machine learning</span><span>Model deployed</span></div>
+          <div class="project-meta mono"><span>04</span><span>Applied machine learning</span><span>Model deployed</span></div>
           <div class="project-copy">
             <h3>OpsPilot</h3>
             <p class="project-thesis">A support routing copilot where redesigning the labels mattered more than another round of model tuning.</p>
@@ -231,7 +271,7 @@
             </div>
           </div>
           <div class="project-visual taxonomy-visual" aria-label="OpsPilot workflow from error analysis through taxonomy redesign to routing based on confidence">
-            <div class="diagram-label mono">Fig. 03 / The intervention</div>
+            <div class="diagram-label mono">Fig. 04 / The intervention</div>
             <div class="taxonomy-step"><span>01</span><small>Error analysis</small><strong>Overlapping queues</strong></div>
             <div class="taxonomy-arrow">↓</div>
             <div class="taxonomy-step active"><span>02</span><small>Task redesign</small><strong>10 labels → 7 operational families</strong></div>
@@ -260,7 +300,7 @@
         </article>
 
         <article class="project project-vibe reveal" id="vibe-curator">
-          <div class="project-meta mono"><span>04</span><span>Generative product</span><span>Personal project / 2026</span></div>
+          <div class="project-meta mono"><span>05</span><span>Generative product</span><span>Personal project / 2026</span></div>
           <div class="project-copy">
             <h3>Vibe Curator</h3>
             <p class="project-thesis">An AI native creative environment where generated media stays editable instead of ending as a flattened file.</p>
@@ -305,6 +345,7 @@
         <h2>Engineering is only useful when someone can act on it.</h2>
       </div>
       <div class="experience-list">
+        <article class="reveal"><span class="mono">2026 to now</span><h3>Founder, Tacet</h3><p>Building, solo, a product that turns an expert's judgment into tested rules for AI agents and new hires. Live in early access.</p></article>
         <article class="reveal"><span class="mono">2025 to 2026</span><h3>MS, Business Analytics &amp; AI</h3><p>Johns Hopkins University · Dean's Scholarship</p></article>
         <article class="reveal"><span class="mono">2025 to 2026</span><h3>Co founder, BAAIO</h3><p>Helped grow the applied AI organization at Johns Hopkins to 100+ registered members; led technical workshops and programming.</p></article>
         <article class="reveal"><span class="mono">2021 to 2024</span><h3>Instructor &amp; facilitator</h3><p>Designed communication programs for adult professionals across varied backgrounds, maintaining 95%+ retention.</p></article>
@@ -324,7 +365,7 @@
         <div class="about-copy reveal">
           <p>I recently completed my master's in Business Analytics &amp; AI at Johns Hopkins. My work moves between deep technical implementation and the person who needs the result. That might be an operator approving an agent action, a healthcare client defending a policy position, or a creator shaping generated media.</p>
           <p>I have lived and worked across Japan, Australia, and the United States, and speak English, Japanese, Nepali, and Hindi at native level.</p>
-          <dl><div><dt>Best fit</dt><dd>Applied AI · Forward deployed · Founding engineer · Data science</dd></div><div><dt>Education</dt><dd>Johns Hopkins MS, completed 2026</dd></div><div><dt>Current focus</dt><dd>AgentDock and applied AI systems</dd></div></dl>
+          <dl><div><dt>Best fit</dt><dd>Applied AI · Forward deployed · Founding engineer · Data science</dd></div><div><dt>Education</dt><dd>Johns Hopkins MS, completed 2026</dd></div><div><dt>Current focus</dt><dd>Tacet, my company: tested rules from expert judgment</dd></div></dl>
         </div>
       </div>
     </section>
